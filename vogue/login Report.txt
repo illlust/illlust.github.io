@@ -1,0 +1,49 @@
+login.swf Movie Report
+
+
+Frame #    Frame Bytes    Total Bytes    Scene
+
+    
+    
+    
+
+      1            946            946    Scene 1 (AS 2.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+
+    
+    
+    
+
+Scene 1                               23             0                    86
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+
+    
+    
+    
+
+trans                                 28            72                     0
+button                                53             0                     3
+
+Tweened Shapes: 201 bytes
+
+Font Name                 Bytes        Characters    
+
+    
+    
+
+Franklin Gothic Medium Bold      244     GILNO
+
+ActionScript Bytes    Location
+
+    
+
+                 1    button:text:1
+                 1    button:text:8
+                 1    button:text:15
+                86    Scene 1:trans:1:No instance name assigned(trans)
+
+
+
+

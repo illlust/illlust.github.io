@@ -1,0 +1,63 @@
+join.swf Movie Report
+
+
+Frame #    Frame Bytes    Total Bytes    Scene
+
+    
+    
+    
+
+      1           3178           3178    Scene 1 (AS 2.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+
+    
+    
+    
+
+Scene 1                                0             0                   152
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+
+    
+    
+    
+
+tran                                  27             0                     0
+bold2                                  0            40                     0
+bold1                                  0            38                     0
+thin2                                  0            43                     0
+thin1                                  0            42                     0
+m2                                     0             0                     3
+m1                                     0             0                     3
+
+Font Name                 Bytes        Characters    
+
+    
+    
+
+Franklin Gothic Medium Bold      773     /ABCDEHIJMNOPRSW%Franklin Gothic Medium          772     /ABCDEHIJMNOPRSW%
+ActionScript Bytes    Location
+
+    
+
+                 1    m2:Layer 3:1
+                 1    m2:Layer 3:7
+                 1    m2:Layer 3:13
+                 1    m1:Layer 3:1
+                 1    m1:Layer 3:7
+                 1    m1:Layer 3:13
+                76    Scene 1:tran:1:No instance name assigned(tran)
+                76    Scene 1:tran:1:No instance name assigned(tran)
+
+Bitmap                     Compressed    Compression
+
+    
+  
+  
+
+right.gif                        544        3096   JPEG Quality=50
+
+
+
+
