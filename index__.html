@@ -2,10 +2,20 @@
 <html>
 <head></head>
 <body>
-
+<button class="btn">btn</button>
 </body>
 <script>
 const sms = 'sms:' +(checkMobile() === 'ios' ? '&' : '?') + 'body=' + '테스트';
+
+const btn = document.querySelector('.btn');
+btn.addEventListener('click', function() {
+	checkM(checkMobile());
+});
+
+function checkM(m){
+	location.href = 'sms:' +'01012345678,01011223344'+(m == 'ios' ? '&' : '?') + 'body='+ encodeURIComponent("보낼 내용");
+}
+
 
 function checkMobile() {
     var varUA = navigator.userAgent.toLowerCase(); //userAgent 값 얻기
