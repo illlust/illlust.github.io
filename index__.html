@@ -36,7 +36,7 @@ const msg = txt.value;
 const ios = (m == 'ios');
 
 if (ios) {
-    location.href = 'sms://open?addresses=' + tel + '?body=' + encodeURIComponent(msg);
+    location.href = 'sms://open?addresses=' + tel + '&body=' + encodeURIComponent(msg);
 
 } else {
     location.href = 'sms:' + tel + '?body=' + encodeURIComponent(msg);
