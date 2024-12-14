@@ -33,9 +33,15 @@ const txt = document.querySelector('.txt');
 
 const msg = txt.value;
 
+const ios = (m == 'ios');
 const ch = (m == 'ios' ? '&' : '?');
 
-location.href = 'sms:' + tel + ch + 'body=' + encodeURIComponent(msg);
+if (ios) {
+    location.href = 'sms://open=addresses=' + tel + '?body=' + encodeURIComponent(msg);
+
+} else {
+    location.href = 'sms:' + tel + '?body=' + encodeURIComponent(msg);
+}
 
 }
 
