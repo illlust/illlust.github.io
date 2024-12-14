@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- 문서의 정보(메타데이터) -->
-    </head>
-    <body>
-        <!-- 문서의 내용 -->
-    </body>
+<head></head>
+<body>
+
+</body>
 <script>
+const sms = 'sms:' +(checkMobile() === 'ios' ? '&' : '?') + 'body=' + '테스트';
+
+function checkMobile() {
+    var varUA = navigator.userAgent.toLowerCase(); //userAgent 값 얻기
+
+    if (varUA.indexOf('android') > -1) {    // 안드로이드
+        return "android";
+    } else if (varUA.indexOf('iphone') > -1 || varUA.indexOf('ipad') > -1 || varUA.indexOf('ipod') > -1 || varUA.indexOf('ios') > -1) {    // IOS
+        return "ios";
+    } else {    // IOS, 안드로이드 외
+        return "other";
+    }
+}
 </script>
 </html>
