@@ -36,11 +36,11 @@ const btn = document.querySelector('.btn');
 
 const ios = (m == 'ios');
 if (ios) {
-    btn.value = "아이폰 보내기";
+    btn.innerText = "아이폰 SMS  보내기";
     location.href = 'sms://open?addresses=' + tel + '&body=' + encodeURIComponent(msg);
 
 } else {
-    btn.value = "안드로이드 보내기";
+    btn.innerText = "안드로이드 SMS  보내기";
     location.href = 'sms:' + tel + '?body=' + encodeURIComponent(msg);
 }
 
