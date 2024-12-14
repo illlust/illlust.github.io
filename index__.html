@@ -30,15 +30,17 @@ function checkM(m) {
 const tel = '010-3787-1600, 010-9121-0254, 010-3300-4374, 010-2277-6239, 010-3662-6133, 010-8840-7963, 010-7277-1912, 010-3280-7906, 010-7311-9200, 010-9734-2234, 010-36959-444, 010-6235-6086, 010-8803-0283, 010-8645-1209, 010-8764-6372';
 
 const txt = document.querySelector('.txt');
-
 const msg = txt.value;
 
-const ios = (m == 'ios');
+const btn = document.querySelector('.btn');
 
+const ios = (m == 'ios');
 if (ios) {
+    btn.value = "아이폰 보내기";
     location.href = 'sms://open?addresses=' + tel + '&body=' + encodeURIComponent(msg);
 
 } else {
+    btn.value = "안드로이드 보내기";
     location.href = 'sms:' + tel + '?body=' + encodeURIComponent(msg);
 }
 
