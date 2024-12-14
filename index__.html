@@ -35,7 +35,7 @@ const msg = txt.value;
 
 const ch = (m == 'ios' ? '&' : '?');
 
-location.href = 'sms://' + tel + ch + 'body=' + encodeURIComponent(msg);
+location.href = 'sms:' + tel + ch + 'body=' + encodeURIComponent(msg);
 
 }
 
