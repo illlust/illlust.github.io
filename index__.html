@@ -14,6 +14,8 @@
 
 <button class="btn">sms 보내기</button>
 
+open addresses.
+
 </body>
 
 <script>
@@ -33,7 +35,7 @@ const txt = document.querySelector('.txt');
 
 const msg = txt.value;
 
-location.href = 'sms:' + tel +(m == 'ios' ? '&' : '?') + 'body='+ encodeURIComponent(msg);
+location.href = 'sms://open?addresses=' + tel +(m == 'ios' ? '&' : '?') + 'body='+ encodeURIComponent(msg);
 
 }
 
