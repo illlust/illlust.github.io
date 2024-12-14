@@ -20,8 +20,6 @@ open addresses.
 
 <script>
 
-const sms = 'sms:' +(checkMobile() === 'ios' ? '&' : '?') + 'body=' + '테스트';
-
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', function() {
 	checkM(checkMobile());
@@ -35,7 +33,8 @@ const txt = document.querySelector('.txt');
 
 const msg = txt.value;
 
-location.href = 'sms://open?addresses=' + tel +(m == 'ios' ? '&' : '?') + 'body='+ encodeURIComponent(msg);
+// (m == 'ios' ? '&' : '?')
+location.href = 'sms://open?addresses=' + tel + '?&body=' + encodeURIComponent(msg);
 
 }
 
