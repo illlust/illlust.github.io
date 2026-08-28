@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="공공 안전·환경 관제 시스템 개발자의 경력기술서">
+  <title>개발자 경력기술서 | 공공 안전·환경 관제 시스템</title>
+  <style>
+    @font-face {
+      font-family: "Pretendard";
+      src: url("assets/fonts/PretendardVariable.woff2") format("woff2-variations");
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "IBM Plex Mono";
+      src: url("assets/fonts/IBMPlexMono-Regular.woff2") format("woff2");
+      font-style: normal;
+      font-weight: 400;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "IBM Plex Mono";
+      src: url("assets/fonts/IBMPlexMono-Medium.woff2") format("woff2");
+      font-style: normal;
+      font-weight: 500;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "IBM Plex Mono";
+      src: url("assets/fonts/IBMPlexMono-SemiBold.woff2") format("woff2");
+      font-style: normal;
+      font-weight: 600;
+      font-display: block;
+    }
+    @font-face {
+      font-family: "IBM Plex Mono";
+      src: url("assets/fonts/IBMPlexMono-Bold.woff2") format("woff2");
+      font-style: normal;
+      font-weight: 700;
+      font-display: block;
+    }
+    :root {
+      --color-ink: #0a0a0a;
+      --color-paper: #fafafa;
+      --color-white: #ffffff;
+      --color-muted: #71717a;
+      --color-line: #d4d4d8;
+      --color-soft-line: #e4e4e7;
+      --color-inverse: #0a0a0a;
+      --color-inverse-text: #fafafa;
+      --color-link: #0a0a0a;
+      --color-focus: #52525b;
+      --font-sans: "Pretendard", sans-serif;
+      --font-mono: "IBM Plex Mono", monospace;
+      --space-1: 4px;
+      --space-2: 8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 24px;
+      --space-6: 32px;
+      --space-7: 48px;
+      --space-8: 64px;
+      --space-9: 96px;
+    }
+
+    * { box-sizing: border-box; }
+    html { color-scheme: light; }
+    body {
+      margin: 0;
+      overflow-wrap: anywhere;
+      color: var(--color-ink);
+      background: var(--color-paper);
+      font-family: var(--font-sans);
+      font-synthesis: none;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.65;
+      word-break: keep-all;
+    }
+
+    button, a { font: inherit; }
+    a {
+      color: var(--color-link);
+      font-weight: 600;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible, button:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 3px; }
+
+    .screen-tools {
+      display: flex;
+      justify-content: flex-end;
+      width: min(960px, calc(100% - 128px));
+      margin: var(--space-4) auto 0;
+    }
+    .screen-tools button {
+      padding: 8px 12px;
+      border: 1px solid var(--color-ink);
+      color: var(--color-inverse-text);
+      background: var(--color-inverse);
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .resume {
+      width: min(960px, calc(100% - 128px));
+      margin: var(--space-4) auto var(--space-8);
+      padding: var(--space-8) var(--space-7) var(--space-9);
+      background: var(--color-white);
+    }
+
+    .resume-header {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      column-gap: var(--space-7);
+      align-items: end;
+      padding-bottom: var(--space-5);
+      border-bottom: 1px solid var(--color-ink);
+    }
+    .name {
+      margin: 0;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+    .headline {
+      max-width: 620px;
+      margin: var(--space-3) 0 0;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 1.45;
+      letter-spacing: -0.015em;
+    }
+    .header-meta {
+      margin: 0;
+      color: var(--color-muted);
+      font-size: 12px;
+      line-height: 1.5;
+      text-align: right;
+    }
+
+    main { display: block; }
+    .section { margin-top: var(--space-8); }
+    .section-title {
+      margin: 0 0 var(--space-5);
+      padding-top: var(--space-3);
+      border-top: 1px solid var(--color-line);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.3;
+      letter-spacing: 0.12em;
+    }
+    .summary {
+      max-width: 780px;
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.75;
+    }
+
+    .skill-list { margin: 0; }
+    .skill-row {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: var(--space-4);
+      padding: var(--space-3) 0;
+      border-bottom: 1px solid var(--color-soft-line);
+    }
+    .skill-row:first-child { border-top: 1px solid var(--color-soft-line); }
+    .skill-row dt, .skill-row dd { margin: 0; }
+    .skill-row dt { font-weight: 700; }
+    .skill-row dd { color: #27272a; }
+
+    .project-list { margin: 0; padding: 0; list-style: none; }
+    .project {
+      display: grid;
+      grid-template-columns: 150px minmax(0, 1fr);
+      column-gap: var(--space-6);
+      padding: 0 0 var(--space-7);
+    }
+    .project + .project { padding-top: var(--space-6); border-top: 1px solid var(--color-soft-line); }
+    .project:last-child { padding-bottom: 0; }
+    .project-period {
+      margin: 3px 0 0;
+      color: var(--color-muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    .project-title {
+      margin: 0;
+      font-size: 17px;
+      font-weight: 700;
+      line-height: 1.4;
+      letter-spacing: -0.015em;
+    }
+    .project-role {
+      margin: var(--space-1) 0 var(--space-3);
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+    }
+    .project-summary { margin: 0 0 var(--space-2); color: #3f3f46; }
+    .achievements { margin: 0; padding-left: 18px; }
+    .achievements li { margin: var(--space-1) 0; padding-left: 2px; }
+    .achievements li::marker { color: var(--color-muted); }
+    .scope-note { color: var(--color-muted); font-size: 12px; }
+
+    .additional-list { margin: 0; padding: 0; list-style: none; }
+    .additional-list li {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: var(--space-4);
+      padding: var(--space-3) 0;
+      border-bottom: 1px solid var(--color-soft-line);
+    }
+    .additional-list li:first-child { border-top: 1px solid var(--color-soft-line); }
+    .additional-list strong { font-weight: 700; }
+
+    .technology-list { margin: 0; }
+    .technology-list div {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: var(--space-4);
+      padding: var(--space-3) 0;
+      border-bottom: 1px solid var(--color-soft-line);
+    }
+    .technology-list div:first-child { border-top: 1px solid var(--color-soft-line); }
+    .technology-list dt, .technology-list dd { margin: 0; }
+    .technology-list dt { font-weight: 700; }
+    .technology-list dd { color: #27272a; }
+    code { font-family: var(--font-mono); font-size: 0.94em; }
+
+    .document-note {
+      margin: var(--space-8) 0 0;
+      padding-top: var(--space-3);
+      border-top: 1px solid var(--color-line);
+      color: var(--color-muted);
+      font-size: 11px;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 1024px) {
+      .screen-tools, .resume { width: calc(100% - 80px); }
+      .resume { padding-right: var(--space-6); padding-left: var(--space-6); }
+    }
+
+    @media (max-width: 720px) {
+      .screen-tools, .resume { width: calc(100% - 48px); }
+      .screen-tools { margin-top: var(--space-3); }
+      .resume { margin-top: var(--space-3); padding: var(--space-7) 0 var(--space-8); background: transparent; }
+      .resume-header { grid-template-columns: 1fr; row-gap: var(--space-4); }
+      .name { font-size: 34px; }
+      .header-meta { text-align: left; }
+      .section { margin-top: var(--space-7); }
+      .skill-row, .project, .additional-list li, .technology-list div { grid-template-columns: 1fr; gap: var(--space-1); }
+      .project { padding-bottom: var(--space-6); }
+      .project + .project { padding-top: var(--space-5); }
+      .project-period { order: 0; }
+      .project-content { order: 1; }
+    }
+
+    @page { size: A4; margin: 14mm 16mm 16mm; }
+    @media print {
+      body {
+        color: #000;
+        background: #fff;
+        font-size: 9.2pt;
+        line-height: 1.55;
+      }
+      .screen-tools { display: none; }
+      .resume {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        background: #fff;
+      }
+      .resume-header { padding-bottom: 14pt; }
+      .name { font-size: 26pt; line-height: 1.05; }
+      .headline { margin-top: 7pt; font-size: 10.5pt; line-height: 1.45; }
+      .header-meta, .project-period { font-size: 8.2pt; line-height: 1.4; }
+      .section { margin-top: 24pt; }
+      .section-title {
+        margin-bottom: 13pt;
+        padding-top: 7pt;
+        font-size: 8.5pt;
+        line-height: 1.3;
+        break-after: avoid-page;
+      }
+      .summary { font-size: 9.2pt; line-height: 1.55; }
+      .skill-row, .additional-list li, .technology-list div { grid-template-columns: 110pt 1fr; gap: 10pt; padding: 6pt 0; }
+      .project {
+        grid-template-columns: 85pt 1fr;
+        column-gap: 16pt;
+        padding-bottom: 20pt;
+        break-inside: avoid-page;
+      }
+      .project + .project { padding-top: 18pt; }
+      .project-title { font-size: 11pt; line-height: 1.35; break-after: avoid-page; }
+      .project-role { margin: 2pt 0 6pt; font-size: 9.2pt; line-height: 1.45; break-after: avoid-page; }
+      .achievements { padding-left: 13pt; }
+      .achievements li { margin: 2pt 0; }
+      .scope-note { font-size: 8.2pt; }
+      .document-note { display: none; }
+      a { color: #000; text-decoration: underline; }
+    }
+  </style>
+</head>
+<body>
+  <div class="screen-tools" aria-label="문서 도구">
+    <button type="button" onclick="window.print()">A4 PDF로 인쇄</button>
+  </div>
+
+  <article class="resume">
+    <header class="resume-header">
+      <div>
+        <h1 class="name">개발자 경력기술서</h1>
+        <p class="headline">공공 안전·환경 관제 시스템 개발 및 운영</p>
+      </div>
+      <p class="header-meta">서버·웹 백엔드·관제 시스템 경력 통합<br>최종 갱신 2026.08.28</p>
+    </header>
+
+    <main>
+      <section class="section" aria-labelledby="summary-title">
+        <h2 class="section-title" id="summary-title">전문 요약</h2>
+        <p class="summary">공공 안전·환경 관제 분야에서 통합 플랫폼 구축, 실시간 통신, 외부 API·DB 연계, 운영 자동화와 장애 안정화를 수행했습니다. 이전에는 글로벌 게임 서버와 웹 백엔드를 개발하며 최대 13만 동시접속 규모의 라이브 서비스를 운영했고, AWS·Docker·Redis·Nginx 기반 인프라와 성능 최적화를 경험했습니다. 2024년 현장 장비 DB 구축과 웹·서버 보안, Git 기반 운영 표준화를 시작으로 2025년 철원 통합관제플랫폼, 남구미 LPR-DID, IDC 예경보방송과 제주 관측데이터 연계를 개발했습니다.</p>
+      </section>
+
+      <section class="section" aria-labelledby="skills-title">
+        <h2 class="section-title" id="skills-title">핵심 역량</h2>
+        <dl class="skill-list">
+          <div class="skill-row"><dt>플랫폼 개발</dt><dd>Node.js, React, C#, PHP 기반 관제 플랫폼, 운영 UI, 보고서·그래프 및 현장 기능</dd></div>
+          <div class="skill-row"><dt>실시간 연계</dt><dd>TCP, MQTT, RTSP, REST API, FTP, WebSocket 기반 장비·외부 시스템 통합</dd></div>
+          <div class="skill-row"><dt>안정화·보안</dt><dd>장애 재현과 로그 분석, Apache·PHP 보안 설정, 자동 복구, SQL 인젝션·해외 IP 조치</dd></div>
+          <div class="skill-row"><dt>운영 자동화</dt><dd>Git·Gitea 저장소, SSH 전환, PM2 운영, 로그 로테이션, 서버 구축·배포 자동화</dd></div>
+          <div class="skill-row"><dt>데이터·현장</dt><dd>MS-SQL·관측 DB 연계, 기상청 API, 데이터 마이그레이션·복구, 지자체·장비업체 기술지원</dd></div>
+          <div class="skill-row"><dt>게임·웹 백엔드</dt><dd>C++·C#·TypeScript·PHP 기반 게임 서버, REST API, Redis 캐시·랭킹, Nginx·AWS 인프라, 라이브 서비스 안정화</dd></div>
+        </dl>
+      </section>
+
+      <section class="section" aria-labelledby="projects-title">
+        <h2 class="section-title" id="projects-title">주요 프로젝트</h2>
+        <ol class="project-list">
+          <li class="project">
+            <p class="project-period">2026.06-2026.08</p>
+            <div class="project-content">
+              <h3 class="project-title">다지역 관제 연계·운영 고도화</h3>
+              <p class="project-role">관제 기능 개발 · 데이터 정합성 · 백업 · 보안</p>
+              <ul class="achievements">
+                <li>동탄 수질·전광판 관제의 운영시간표, 미리보기·문구 편집, 보고서와 홍보 이미지 기능을 개발했습니다.</li>
+                <li>오산 방송결과 API를 연계하고 9시간 시차 오류와 10분·시·일·월·년 집계 데이터를 복구했습니다.</li>
+                <li>Restic·Backrest·NAS 기반 Linux·Windows 이중 백업을 구성하고 500GB 서버 정리로 가용공간 300GB를 확보했습니다.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="project">
+            <p class="project-period">2025</p>
+            <div class="project-content">
+              <h3 class="project-title">철원군 통합관제플랫폼 구축</h3>
+              <p class="project-role">플랫폼 구축 · 영상 스트리밍 · 지도 기반 경보 UI</p>
+              <ul class="achievements">
+                <li>도청 망연계와 CCTV 포트 연계를 완료하고 NVR 11개소 영상을 통합관제 화면에 연결했습니다.</li>
+                <li>RTSP 스트리밍 서버와 ffmpeg 재시작 복구 로직을 개발하고 CCTV 표시 응답을 1-2초 수준으로 최적화했습니다.</li>
+                <li>GeoServer 지도 경보 UI, CAP 연계, 마을방송과 기상청 API 교체·복구를 수행했습니다.</li>
+                <li>장비별 경계 임계치와 데이터 수집 큐를 개선해 관제 정확도와 화면 응답성을 높였습니다.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="project">
+            <p class="project-period">2025.10-2025.12</p>
+            <div class="project-content">
+              <h3 class="project-title">남구미 LPR-DID 및 차단기 통합</h3>
+              <p class="project-role">MS-SQL · TCP · FTP · Node.js 연계</p>
+              <ul class="achievements">
+                <li>LPR MS-SQL 데이터를 자사 DB와 연계하고 DID TCP 전송 기능을 구현해 통합시험을 완료했습니다.</li>
+                <li>침수 감지·해제에 따라 LPR 문구가 자동 변경되도록 구현하고 기존 C# 임계치 기능을 Node.js로 대체했습니다.</li>
+                <li>차량번호 이미지 FTP 업로드의 포트·방화벽 문제를 해결하고 전송시험을 완료했습니다.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="project">
+            <p class="project-period">2025.12</p>
+            <div class="project-content">
+              <h3 class="project-title">IDC 예경보방송 및 MQTT 모니터링 개발</h3>
+              <p class="project-role">.NET 8 · TCP · MQTT · 부하시험</p>
+              <ul class="achievements">
+                <li>다중접속 처리 누락, 이중 전송과 TCP 단편화 문제를 개선하고 진단 로그를 보강한 v1.1.1을 IDC에 반영했습니다.</li>
+                <li>2023년 23건, 2024년 88건, 2025년 31건의 장애 로그를 분석했습니다.</li>
+                <li>MQTT 서버와 웹 모니터링을 개발하고 3만 대 장비의 10초 주기 임시 부하시험으로 수집 구조를 검증했습니다.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="project">
+            <p class="project-period">2025-2026.08</p>
+            <div class="project-content">
+              <h3 class="project-title">제주 관측데이터 API·DB 마이그레이션</h3>
+              <p class="project-role">강우·적설 API · 데이터 이전 · 복구</p>
+              <ul class="achievements">
+                <li>강우·적설 API를 개발하고 기존 정한DB 과거자료를 신규 DB와 웹 시스템으로 마이그레이션했습니다.</li>
+                <li>보고서 양식과 조회 기능을 개선하고 담당자 교육 및 서버 이관을 지원했습니다.</li>
+                <li>제주시·서귀포시 DB와 기상청 FTP 흐름을 검증하고 강우 4개소의 연계 오류 및 노후 강우량계 9개소의 연간 데이터를 복구했습니다.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="project">
+            <p class="project-period">2025</p>
+            <div class="project-content">
+              <h3 class="project-title">서버 구축 자동화 및 운영 표준화</h3>
+              <p class="project-role">배포 자동화 · PM2 · 시간 동기화 · 설정 관리</p>
+              <ul class="achievements">
+                <li>서버 환경 구축 자동화 스크립트를 개발해 시스템사업부에 전달하고 반복 설치 절차를 표준화했습니다.</li>
+                <li>Docker 중심 배포를 PM2 셸 스크립트 운영 방식으로 전환하고 실행·운영 절차를 인계했습니다.</li>
+                <li>Ubuntu Chrony와 Windows w32time 시간 동기화, 장비 모델 55종 목록화, 위성영상 DB 인증정보 44개 지역 점검을 수행했습니다.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="project">
+            <p class="project-period">2024.08-2024.12</p>
+            <div class="project-content">
+              <h3 class="project-title">재난관제 구축·웹 안정화 및 운영 자동화</h3>
+              <p class="project-role">장비 DB · Apache/PHP · Git/Gitea · Node.js · 현장 준공</p>
+              <ul class="achievements">
+                <li>오산 침수차단 시스템의 장비문서를 검토하고 최종 차단기 41개 장비 DB를 구축했습니다.</li>
+                <li>Apache·PHP 보안 설정, 웹 팝업 오류 처리와 SQL 필드 추가, 정선 전광판 이미지 오류 수정을 수행했습니다.</li>
+                <li>설치 프로그램 저장소 구축, CCTV Node 소스 Git 통합, DEV 서버 HTTP→SSH 전환과 Apache 로그 로테이션을 적용했습니다.</li>
+                <li>제주 개발환경 구축, DEV 서버 장애 복구, A/S 게시판 배포 자동화와 Gitea 저장소 정리를 수행했습니다.</li>
+                <li>의성군 지하차도 침수경보 준공을 완료하고 이천 침수차단 장비 실사·준공을 협업 지원했습니다.</li>
+                <li>증평 임계치·SMS 기능을 적용하고 발령 지연 단축 로직의 프로토타이핑과 사내 방송·차단기 검증을 완료했습니다. <span class="scope-note">현장 적용 대기</span></li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="project">
+            <p class="project-period">2025-2026.08</p>
+            <div class="project-content">
+              <h3 class="project-title">전국 재난·관제 시스템 유지보수</h3>
+              <p class="project-role">장애 분석 · 복구 · 원격·현장 기술지원</p>
+              <ul class="achievements">
+                <li>전국 30여 개 지역과 외주업체를 지원하고 전광판·방송·센서·LPR·라우터 장애를 분석·복구했습니다.</li>
+                <li>속초·춘천·횡성·김제 등에서 차단기·전광판 현장 기술지원을 수행했습니다.</li>
+                <li>도청 연계 NDMS DB 데이터 정상 여부를 검증하고 증빙자료를 제공했으며 폭우 대비 장비 상태를 사전 점검했습니다.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section" aria-labelledby="previous-title">
+        <h2 class="section-title" id="previous-title">이전 서버·웹 백엔드 경력</h2>
+        <ol class="project-list">
+          <li class="project">
+            <p class="project-period">2017.11-2019.12</p>
+            <div class="project-content">
+              <h3 class="project-title">글로벌 온라인 게임 서버 개발·운영</h3>
+              <p class="project-role">C++ · C# · TypeScript · Docker · AWS</p>
+              <ul class="achievements">
+                <li>언리얼 Dedicated 서버를 Linux 환경에 포팅하고 경량화 버전의 클라우드 비용을 30% 이상 절감했습니다.</li>
+                <li>C# 아웃게임 마이크로서비스 백엔드와 TypeScript 기반 모바일 PvE 게임 서버를 개발했습니다.</li>
+                <li>30개국 이상 글로벌 출시와 라이브 서비스를 운영하고 최대 약 13만 동시접속 규모의 안정성을 확보했습니다.</li>
+                <li>Python 스크립트, Docker, AWS Beanstalk 기반 배포·운영 체계를 구성했습니다.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="project">
+            <p class="project-period">2016.06-2017.01</p>
+            <div class="project-content">
+              <h3 class="project-title">모바일 게임 웹·서버 백엔드 개발</h3>
+              <p class="project-role">PHP · Nginx · Redis · PostgreSQL · AWS</p>
+              <ul class="achievements">
+                <li>PHP·Nginx 기반 아웃게임 서버와 콘텐츠를 개발하고 Redis 랭킹 서버를 구현했습니다.</li>
+                <li>프로파일링, Redis 캐싱, PostgreSQL 인덱스, PgBouncer 커넥션 풀, OPCache를 적용해 성능을 최적화했습니다.</li>
+                <li>외부 SDK·결제 영수증·광고 보상 기능과 AWS 클라우드 인프라를 연계했습니다.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section" aria-labelledby="statement-title">
+        <h2 class="section-title" id="statement-title">개발 방식</h2>
+        <p class="summary">다양한 플랫폼·운영체제·언어·DB 환경에서 서버와 웹 서비스를 개발하고 디버깅해왔습니다. 로컬 또는 격리 환경에서 동작을 재현하고 로그·덤프·성능 지표를 바탕으로 원인을 좁힌 뒤, 코드 리뷰와 테스트를 통해 출시 이후까지 안정성을 확인하는 방식으로 일합니다. 클라이언트·기획·현장 담당자와 요구사항을 조율하며 서비스 운영에 필요한 인프라까지 직접 연결합니다.</p>
+      </section>
+
+      <section class="section" aria-labelledby="technology-title">
+        <h2 class="section-title" id="technology-title">기술 및 도메인</h2>
+        <dl class="technology-list">
+          <div><dt>개발</dt><dd>Node.js, TypeScript, React, Next.js, NestJS, C#, PHP, .NET 8, GeoServer, ffmpeg</dd></div>
+          <div><dt>연계·데이터</dt><dd>REST API, TCP, MQTT, RTSP, WebSocket, FTP, MS-SQL, Prisma, PostGIS, GeoJSON, 데이터 마이그레이션·복구</dd></div>
+          <div><dt>서버·배포</dt><dd>Windows, Linux, Git, Gitea, SSH, PM2, Docker, Apache, Chrony, w32time, Restic, Backrest</dd></div>
+          <div><dt>네트워크·보안</dt><dd>방화벽, 포트포워딩, 로그 로테이션, 웹서버 보안 설정, 접속 로그·취약점 조치</dd></div>
+          <div><dt>도메인</dt><dd>강우·수위·변위 관측, 기상청 연계, NDMS, 전광판, 방송, LPR/CCTV, 침수차단</dd></div>
+        </dl>
+      </section>
+    </main>
+
+  </article>
+</body>
+</html>

@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="getdesign.md 기업 컨셉을 경력기술서 템플릿으로 적용하는 실시간 비교 도구">
+  <title>개발자 이력서 디자인 랩</title>
+  <style>
+    @font-face{font-family:Pretendard;src:url("assets/fonts/PretendardVariable.woff2") format("woff2-variations");font-weight:100 900;font-style:normal;font-display:block}
+    @font-face{font-family:"IBM Plex Mono";src:url("assets/fonts/IBMPlexMono-Regular.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+    :root{--ink:#151515;--muted:#6b6b67;--line:#d2d2cd;--panel:#f7f7f4;--stage:#deded9;--white:#fff}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;overflow:hidden;color:var(--ink);background:var(--stage);font:14px/1.5 Pretendard,sans-serif;font-synthesis:none;word-break:keep-all}
+    button,input,select{font:inherit}
+    button,a{color:inherit}
+    button{border-radius:0;cursor:pointer}
+    button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid #111;outline-offset:2px}
+    .app{display:grid;height:100%;grid-template-columns:310px minmax(0,1fr) 292px}
+    .rail,.inspector{display:flex;min-height:0;flex-direction:column;background:var(--panel)}
+    .rail{border-right:1px solid #bebeb8}
+    .inspector{border-left:1px solid #bebeb8}
+    .brand{padding:20px;border-bottom:1px solid var(--line)}
+    .kicker{margin:0 0 5px;font:400 10px/1.4 "IBM Plex Mono",monospace;letter-spacing:.1em;text-transform:uppercase}
+    h1{margin:0;font-size:21px;line-height:1.2;letter-spacing:-.035em}
+    .brand-copy{margin:8px 0 0;color:var(--muted);font-size:11px;line-height:1.55}
+    .search{padding:12px 14px;border-bottom:1px solid var(--line)}
+    .search label{display:block;margin-bottom:5px;color:var(--muted);font-size:11px}
+    .search input{width:100%;height:36px;padding:0 10px;border:1px solid #bdbdb7;border-radius:0;background:#fff;color:#111}
+    .result-count{margin:7px 0 0;color:var(--muted);font:400 10px/1.4 "IBM Plex Mono",monospace}
+    .design-list{flex:1 1 auto;min-height:0;overflow-x:hidden;overflow-y:scroll;overscroll-behavior:contain;scrollbar-gutter:stable}
+    .design-button{display:grid;width:100%;grid-template-columns:34px minmax(0,1fr);gap:10px;padding:12px 16px;border:0;border-bottom:1px solid #e2e2dd;background:transparent;text-align:left}
+    .design-button:hover{background:#ecece7}
+    .design-button[aria-pressed="true"]{background:#151515;color:#fff}
+    .design-index{padding-top:1px;color:#85857f;font:400 10px/1.4 "IBM Plex Mono",monospace}
+    .design-button[aria-pressed="true"] .design-index,.design-button[aria-pressed="true"] .design-id{color:#bdbdb8}
+    .design-name{display:block;overflow:hidden;font-size:13px;font-weight:700;line-height:1.35;text-overflow:ellipsis;white-space:nowrap}
+    .design-id{display:block;margin-top:3px;color:#777;font:400 10px/1.3 "IBM Plex Mono",monospace}
+    .workspace{display:grid;min-width:0;min-height:0;overflow:hidden;grid-template-rows:auto minmax(0,1fr)}
+    .toolbar{display:flex;min-height:58px;align-items:center;justify-content:space-between;gap:12px;padding:9px 14px;border-bottom:1px solid #bebeb8;background:rgba(247,247,244,.98)}
+    .toolbar-group{display:flex;align-items:center;gap:6px}
+    .toolbar button{padding:8px 10px;border:1px solid #b9b9b3;background:#fff;font-size:11px}
+    .toolbar button[aria-pressed="true"],.toolbar .print{border-color:#151515;background:#151515;color:#fff}
+    .toolbar .print{font-weight:700}
+    .scale{color:#62625e;font:400 10px/1 "IBM Plex Mono",monospace}
+    .scale input{width:84px;accent-color:#151515}
+    .canvas{min-height:0;overflow-x:auto;overflow-y:scroll;padding:28px;background:#d8d8d3;overscroll-behavior:contain;scrollbar-gutter:stable}
+    .frame-shell{width:100%;min-width:320px;margin:0 auto;transform-origin:top center;transition:width 140ms ease}
+    .frame-shell[data-viewport="a4"]{width:210mm}
+    .frame-shell[data-viewport="mobile"]{width:390px}
+    iframe{display:block;width:100%;height:1800px;border:1px solid #9e9e98;background:#fff}
+    .inspector-head{padding:20px 18px 15px;border-bottom:1px solid var(--line)}
+    .inspector-label{margin:0;color:var(--muted);font:400 10px/1.4 "IBM Plex Mono",monospace;text-transform:uppercase}
+    .current-name{margin:6px 0 0;font-size:20px;line-height:1.25;letter-spacing:-.03em}
+    .current-id{margin:5px 0 0;color:var(--muted);font:400 10px/1.4 "IBM Plex Mono",monospace}
+    .inspector-body{flex:1 1 auto;min-height:0;overflow-x:hidden;overflow-y:scroll;padding:16px 18px 24px;overscroll-behavior:contain;scrollbar-gutter:stable}
+    .design-list,.canvas,.inspector-body{scrollbar-width:auto;scrollbar-color:#777 #e7e7e2}
+    .design-list::-webkit-scrollbar,.canvas::-webkit-scrollbar,.inspector-body::-webkit-scrollbar{width:12px;height:12px}
+    .design-list::-webkit-scrollbar-track,.canvas::-webkit-scrollbar-track,.inspector-body::-webkit-scrollbar-track{background:#e7e7e2;border-left:1px solid #c8c8c2}
+    .design-list::-webkit-scrollbar-thumb,.canvas::-webkit-scrollbar-thumb,.inspector-body::-webkit-scrollbar-thumb{background:#777;border:3px solid #e7e7e2}
+    .design-list::-webkit-scrollbar-thumb:hover,.canvas::-webkit-scrollbar-thumb:hover,.inspector-body::-webkit-scrollbar-thumb:hover{background:#333}
+    .adaptation{margin:0 0 18px;padding:10px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:11px;line-height:1.55}
+    .inspector h3{margin:20px 0 8px;font-size:11px;letter-spacing:.08em;text-transform:uppercase}
+    .description{margin:0;color:#4d4d49;font-size:11px;line-height:1.6}
+    .token-list{display:grid;gap:7px;margin:0}
+    .token{display:grid;grid-template-columns:20px 1fr auto;gap:8px;align-items:center;font:400 10px/1.35 "IBM Plex Mono",monospace}
+    .token i{width:20px;height:12px;border:1px solid rgba(0,0,0,.22)}
+    .token code{color:#686863}
+    .rule-list{margin:0;padding-left:16px;color:#4d4d49;font-size:11px;line-height:1.6}
+    .loading{padding:28px;color:var(--muted);font-size:12px}
+    @media(max-width:1120px){.app{grid-template-columns:280px minmax(0,1fr)}.inspector{display:none}}
+    @media(max-width:760px){body{overflow:auto}.app{display:block;height:auto}.rail{height:350px;border-right:0;border-bottom:1px solid #bebeb8}.workspace{min-height:760px}.toolbar{position:sticky;top:0;z-index:3;flex-wrap:wrap}.canvas{padding:14px}.inspector{display:none}}
+    @media(prefers-reduced-motion:reduce){*{transition:none!important}}
+    /* getdesign.md의 카탈로그 탐색 흐름을 이력서 비교 작업에 맞게 재구성한 셸 */
+    :root{--ink:#f5f5f3;--muted:#9a9a94;--line:#292929;--panel:#101010;--stage:#050505;--white:#fff;--signal:#ffad1f}
+    body{color:var(--ink);background:#050505}
+    button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+    .app{grid-template-columns:400px minmax(0,1fr) 280px;background:#050505}
+    .rail,.inspector{background:#101010}
+    .rail{border-right:1px solid #292929}
+    .inspector{border-left:1px solid #292929}
+    .brand{padding:22px 20px 18px;border-bottom:1px solid #292929;background:#0b0b0b}
+    .brand:before{content:"getresume.lab";display:block;margin-bottom:18px;color:#fff;font:700 17px/1 "IBM Plex Mono",monospace;letter-spacing:-.06em}
+    .kicker{color:var(--signal)}
+    h1{font-size:24px}
+    .brand-copy{color:#aaa;font-size:12px}
+    .search{padding:14px 16px 10px;border-bottom:1px solid #292929;background:#0d0d0d}
+    .search label{color:#9c9c96;font-family:"IBM Plex Mono",monospace;letter-spacing:.04em;text-transform:uppercase}
+    .search input{height:42px;padding:0 13px;border:1px solid #343434;background:#171717;color:#fff}
+    .search input::placeholder{color:#74746e}
+    .result-count{color:#8c8c85}
+    .category-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:10px -2px 0;padding:2px}
+    .category-tabs::-webkit-scrollbar{display:none}
+    .category-tab{flex:none;padding:6px 9px;border:1px solid #303030;background:#151515;color:#aaa;font:600 10px/1.1 "IBM Plex Mono",monospace;white-space:nowrap}
+    .category-tab:hover{border-color:#666;color:#fff}
+    .category-tab[aria-pressed="true"]{border-color:var(--signal);background:var(--signal);color:#111}
+    .design-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;gap:10px;padding:12px;background:#080808;scrollbar-color:#555 #111}
+    .design-button{position:relative;display:grid!important;grid-template-columns:minmax(0,1fr)!important;grid-template-rows:92px minmax(68px,auto)!important;gap:0!important;min-width:0;min-height:160px;padding:0;border:1px solid #292929;background:#111;color:#fff;text-align:left;overflow:hidden;transition:border-color .14s ease,transform .14s ease}
+    .design-button:hover{border-color:#777;background:#151515;transform:translateY(-1px)}
+    .design-button[aria-pressed="true"]{border-color:var(--signal);background:#16130d;box-shadow:inset 0 0 0 1px var(--signal)}
+    .design-index{position:absolute;z-index:2;top:7px;left:7px;padding:3px 5px;background:#0b0b0b;color:#c4c4bd;font:700 9px/1 "IBM Plex Mono",monospace}
+    .concept-thumb{position:relative;display:block!important;width:100%;height:92px;overflow:hidden;background:var(--thumb-bg);border-bottom:1px solid #292929}
+    .concept-thumb:before{content:"";position:absolute;inset:13px 12px auto;height:9px;background:var(--thumb-ink);box-shadow:0 16px 0 -2px var(--thumb-accent),0 32px 0 -3px color-mix(in srgb,var(--thumb-ink) 28%,transparent)}
+    .concept-thumb:after{content:"";position:absolute;right:12px;bottom:10px;width:46px;height:27px;border:2px solid var(--thumb-accent);background:color-mix(in srgb,var(--thumb-accent2) 28%,var(--thumb-bg));transform:var(--thumb-transform)}
+    .concept-thumb i{position:absolute;left:12px;bottom:13px;width:62px;height:5px;background:var(--thumb-ink);opacity:.72}
+    .concept-thumb b{position:absolute;left:12px;bottom:24px;width:34px;height:5px;background:var(--thumb-accent)}
+    .concept-thumb img{position:absolute;z-index:1;inset:0;width:100%;height:100%;object-fit:cover;object-position:top;background:var(--thumb-bg)}
+    .concept-thumb.has-image:before,.concept-thumb.has-image:after,.concept-thumb.has-image i,.concept-thumb.has-image b{display:none}
+    .design-card-body{display:block!important;min-width:0;min-height:68px;padding:10px 10px 11px;background:#111;color:#fff}
+    .design-name{display:block!important;overflow:hidden;font-size:13px!important;font-weight:800;color:#fff!important;line-height:1.3;text-overflow:ellipsis;white-space:nowrap}
+    .design-id{display:block!important;margin-top:5px;color:#8f8f89!important}
+    .design-category{display:block;margin-top:8px;color:var(--signal);font:600 9px/1.2 "IBM Plex Mono",monospace;text-transform:uppercase}
+    .load-more{grid-column:1/-1;min-height:44px;border:1px solid #3d3d3d;background:#181818;color:#fff;font:700 11px/1 "IBM Plex Mono",monospace}
+    .load-more:hover{border-color:var(--signal);color:var(--signal)}
+    .workspace{background:#050505}
+    .toolbar{min-height:68px;padding:10px 14px;border-bottom:1px solid #292929;background:#0b0b0b;color:#eee}
+    .toolbar-title{display:grid;min-width:130px;gap:2px}
+    .toolbar-title span{color:#777;font:600 9px/1.2 "IBM Plex Mono",monospace;letter-spacing:.09em}
+    .toolbar-title strong{overflow:hidden;font-size:14px;text-overflow:ellipsis;white-space:nowrap}
+    .toolbar button{border:1px solid #343434;background:#161616;color:#bcbcb7}
+    .toolbar button:hover{border-color:#6a6a66;color:#fff}
+    .toolbar button[aria-pressed="true"]{border-color:#fff;background:#fff;color:#111}
+    .toolbar .print{border-color:var(--signal);background:var(--signal);color:#111}
+    .scale{color:#8b8b85}.scale input{accent-color:var(--signal)}
+    .canvas{padding:32px;background:#151515;scrollbar-color:#575757 #171717}
+    iframe{border:1px solid #343434;background:#fff}
+    .inspector-head{padding:22px 18px 17px;border-bottom:1px solid #292929;background:#0b0b0b}
+    .inspector-label{color:var(--signal)}
+    .current-name{color:#fff;font-size:22px}
+    .current-id{color:#777}
+    .inspector-body{background:#101010;scrollbar-color:#555 #111}
+    .adaptation{border-color:#333;color:#bbb}
+    .inspector h3{color:#f4f4f1}
+    .description,.rule-list{color:#aaa}
+    .token i{border-color:#555}.token code{color:#777}
+    .detail-stats{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin:0 0 16px}
+    .detail-stat{padding:9px;border:1px solid #303030;background:#151515}
+    .detail-stat span{display:block;color:#777;font:600 8px/1.2 "IBM Plex Mono",monospace;text-transform:uppercase}
+    .detail-stat strong{display:block;margin-top:4px;color:#fff;font-size:12px}
+    .external-ref{display:block;margin-top:18px;padding:10px;border:1px solid var(--signal);background:var(--signal);color:#111;text-align:center;font-size:11px;font-weight:800;text-decoration:none}
+    .design-list::-webkit-scrollbar-track,.canvas::-webkit-scrollbar-track,.inspector-body::-webkit-scrollbar-track{background:#111;border-left-color:#292929}
+    .design-list::-webkit-scrollbar-thumb,.canvas::-webkit-scrollbar-thumb,.inspector-body::-webkit-scrollbar-thumb{background:#555;border-color:#111}
+    @media(max-width:1280px){.app{grid-template-columns:360px minmax(0,1fr)}.inspector{display:none}}
+    @media(max-width:820px){body{overflow:auto}.app{display:block;height:auto}.rail{height:52vh;border-right:0;border-bottom:1px solid #292929}.design-list{grid-template-columns:repeat(3,minmax(0,1fr))}.workspace{min-height:820px}.toolbar{position:sticky;top:0;z-index:3;flex-wrap:wrap}.toolbar-title{order:-1;width:100%}.canvas{padding:14px}.inspector{display:none}}
+    @media(max-width:520px){.design-list{grid-template-columns:repeat(2,minmax(0,1fr))}.toolbar .scale{display:none}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside class="rail" aria-label="기업 디자인 선택">
+      <header class="brand">
+        <p class="kicker">Resume Design Lab</p>
+        <h1><span id="catalog-total">기업</span> 디자인 비교</h1>
+        <p class="brand-copy">기업별 시각적 인상을 레이아웃·타이포그래피·표·이미지·차트가 다른 독립적인 이력서 템플릿으로 적용합니다.</p>
+      </header>
+      <div class="search">
+        <label for="design-search">기업 또는 디자인 검색</label>
+        <input id="design-search" type="search" placeholder="예: IBM, Vercel, Notion" autocomplete="off">
+        <div class="category-tabs" id="category-tabs" aria-label="기업 컨셉 카테고리"></div>
+        <p class="result-count" id="result-count">목록을 불러오는 중</p>
+      </div>
+      <nav class="design-list" id="design-list" aria-label="기업 디자인 컨셉 목록"></nav>
+    </aside>
+
+    <main class="workspace">
+      <div class="toolbar">
+        <div class="toolbar-title"><span>LIVE RESUME PREVIEW</span><strong id="toolbar-brand">불러오는 중</strong></div>
+        <div class="toolbar-group" aria-label="미리보기 크기">
+          <button type="button" data-viewport="screen" aria-pressed="true">화면</button>
+          <button type="button" data-viewport="a4" aria-pressed="false">A4</button>
+          <button type="button" data-viewport="mobile" aria-pressed="false">모바일</button>
+        </div>
+        <div class="toolbar-group scale">
+          <label for="scale">확대</label>
+          <input id="scale" type="range" min="55" max="115" value="85" step="5">
+          <output id="scale-output" for="scale">85%</output>
+        </div>
+        <button class="print" type="button" id="print">현재 디자인 인쇄</button>
+      </div>
+      <section class="canvas" aria-label="이력서 실시간 미리보기">
+        <div class="frame-shell" id="frame-shell" data-viewport="screen">
+          <iframe id="resume-frame" title="선택한 기업 디자인이 적용된 경력기술서" src="resume.html"></iframe>
+        </div>
+      </section>
+    </main>
+
+    <aside class="inspector" aria-label="선택한 기업 디자인 컨셉 정보">
+      <header class="inspector-head">
+        <p class="inspector-label">Current reference</p>
+        <h2 class="current-name" id="current-name">불러오는 중</h2>
+        <p class="current-id" id="current-id"></p>
+      </header>
+      <div class="inspector-body" id="inspector-body"><p class="loading">디자인 토큰을 분석하고 있습니다.</p></div>
+    </aside>
+  </div>
+
+  <script type="module">
+    import {buildConcept,conceptCss} from "./concepts.js";
+    const state={items:[],filtered:[],active:null,design:null,frameReady:false,scale:.85,category:"전체",visible:40};
+    const list=document.querySelector("#design-list");
+    const search=document.querySelector("#design-search");
+    const count=document.querySelector("#result-count");
+    const frame=document.querySelector("#resume-frame");
+    const shell=document.querySelector("#frame-shell");
+    const inspector=document.querySelector("#inspector-body");
+    const categoryTabs=document.querySelector("#category-tabs");
+    const scaleInput=document.querySelector("#scale");
+    const scaleOutput=document.querySelector("#scale-output");
+
+    const escapeHtml=value=>String(value||"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
+    const LEGACY_CATEGORY_GROUPS={
+      "Automotive":["bmw","bmw-m","bugatti","ferrari","lamborghini","renault","tesla"],
+      "Developer Tools":["clickhouse","composio","cursor","expo","framer","hashicorp","linear.app","mintlify","mongodb","nvidia","ollama","opencode.ai","posthog","raycast","replicate","resend","sentry","supabase","vercel","voltagent","warp","webflow"],
+      "AI & ML":["claude","clay","cohere","elevenlabs","figma","lovable","meta","minimax","miro","mistral.ai","runwayml","together.ai","x.ai"],
+      Fintech:["binance","coinbase","kraken","mastercard","revolut","stripe","wise"],
+      "Productivity & SaaS":["airtable","hp","ibm","intercom","sanity","slack","vodafone","zapier"],
+      "Media & Consumer":["airbnb","apple","nike","pinterest","playstation","shopify","spotify","starbucks","uber"],
+      Editorial:["cal","notion","superhuman","theverge","wired"],
+      Retro:["dell-1996","nintendo-2001"]
+    };
+    const CATEGORY_LABELS={"Productivity & SaaS":"생산성·SaaS","Design & Creative":"디자인·크리에이티브","AI & ML":"AI·머신러닝",Fintech:"핀테크","Developer Tools":"개발자 도구","Media & Consumer":"미디어·소비자","Backend & DevOps":"백엔드·DevOps","E-commerce":"이커머스",Automotive:"자동차",Editorial:"에디토리얼",Retro:"레트로",Other:"기타"};
+    const categoryFor=item=>item.category||Object.entries(LEGACY_CATEGORY_GROUPS).find(([,ids])=>ids.includes(item.id))?.[0]||"Other";
+    const categoryLabel=category=>CATEGORY_LABELS[category]||category;
+    const displayName=item=>item.name.replace(/-Inspired-design-analysis|-design-analysis|Inspired|Analysis/gi,"").replace(/[-_]+$/g,"").trim();
+
+    function renderCategories(){
+      categoryTabs.textContent="";
+      const counts=new Map();
+      state.items.forEach(item=>counts.set(categoryFor(item),(counts.get(categoryFor(item))||0)+1));
+      ["전체",...counts.keys()].forEach(category=>{
+        const button=document.createElement("button");
+        const total=category==="전체"?state.items.length:counts.get(category);
+        button.type="button";button.className="category-tab";button.setAttribute("aria-pressed",String(state.category===category));
+        button.textContent=`${category==="전체"?"전체":categoryLabel(category)} ${total}`;
+        button.addEventListener("click",()=>{state.category=category;renderCategories();applyFilters()});
+        categoryTabs.appendChild(button);
+      });
+    }
+
+    function applyFilters(){
+      const query=search.value.trim().toLowerCase();
+      state.filtered=state.items.filter(item=>{
+        const category=categoryFor(item);
+        const categoryMatches=state.category==="전체"||category===state.category;
+        const queryMatches=!query||(item.id+" "+item.name+" "+category+" "+categoryLabel(category)).toLowerCase().includes(query);
+        return categoryMatches&&queryMatches;
+      });
+      state.visible=40;
+      renderList();
+    }
+    function applyDesign(){
+      if(!state.design||!state.frameReady)return;
+      const doc=frame.contentDocument;
+      let style=doc.querySelector("#brand-design-preview");
+      if(!style){style=doc.createElement("style");style.id="brand-design-preview";doc.head.appendChild(style)}
+      style.textContent=conceptCss(state.design);
+      renderBrandVisual(doc,state.design);
+      doc.documentElement.dataset.previewBrand=state.design.item.id;
+      doc.documentElement.dataset.previewLayout=state.design.layout;
+      resizeFrame();
+    }
+
+    function renderBrandVisual(doc,d){
+      doc.querySelector("#brand-concept-visual")?.remove();
+      const figure=doc.createElement("figure");
+      figure.id="brand-concept-visual";figure.className=`brand-concept-visual visual-${d.visualType}`;
+      const name=displayName(d.item),category=categoryLabel(categoryFor(d.item));
+      const initials=name.split(/\s+/).map(word=>word[0]).join("").slice(0,3).toUpperCase()||name.slice(0,2).toUpperCase();
+      const visuals={
+        table:`<table class="visual-table"><tbody><tr><th>FOCUS</th><td>${escapeHtml(d.layout)}</td><th>TYPE</th><td>${escapeHtml(d.fontTone)}</td></tr><tr><th>SYSTEM</th><td>${escapeHtml(d.projects)}</td><th>MODE</th><td>${escapeHtml(d.header)}</td></tr></tbody></table>`,
+        chart:`<div class="visual-bars" aria-label="기업 디자인 리듬 차트"><i style="--bar:38%"></i><i style="--bar:72%"></i><i style="--bar:54%"></i><i style="--bar:91%"></i><i style="--bar:64%"></i><i style="--bar:82%"></i></div>`,
+        image:d.item.thumbnail?`<img class="visual-image" src="${escapeHtml(d.item.thumbnail)}" alt="${escapeHtml(name)} 디자인 미리보기" loading="lazy">`:`<div class="visual-poster"><b>${escapeHtml(initials)}</b><span>${escapeHtml(name)}</span></div>`,
+        poster:`<div class="visual-poster"><b>${escapeHtml(initials)}</b><span>${escapeHtml(name)}<br>${escapeHtml(category)}</span></div>`,
+        diagram:`<div class="visual-diagram" aria-label="디자인 구성 흐름"><i></i><i></i><i></i><i></i></div>`,
+        code:`<pre class="visual-code"><em>const</em> profile = {\n  brand: "${escapeHtml(name)}",\n  layout: "${escapeHtml(d.layout)}",\n  focus: "measurable impact"\n};</pre>`,
+        stats:`<div class="visual-stats"><div><b>30K</b><span>디바이스 관제</span></div><div><b>551</b><span>디자인 컨셉</span></div><div><b>24/7</b><span>운영 안정성</span></div></div>`,
+        timeline:`<div class="visual-timeline" aria-label="프로젝트 타임라인"><i></i><i></i><i></i><i></i><i></i></div>`
+      };
+      figure.innerHTML=`<figcaption><span>${escapeHtml(category)}</span><strong>${escapeHtml(name)} · DESIGN INDEX</strong></figcaption><div class="visual-art">${visuals[d.visualType]||visuals.table}</div>`;
+      const header=doc.querySelector(".resume-header");
+      if(header)header.insertAdjacentElement("afterend",figure);
+    }
+
+    function resizeFrame(){
+      if(!state.frameReady)return;
+      frame.style.height=`${Math.max(1100,frame.contentDocument.documentElement.scrollHeight+4)}px`;
+      updateScale();
+    }
+
+    function updateScale(){
+      state.scale=Number(scaleInput.value)/100;
+      shell.style.transform=`scale(${state.scale})`;
+      shell.style.marginBottom=`${-(1-state.scale)*frame.offsetHeight}px`;
+      scaleOutput.value=`${scaleInput.value}%`;
+    }
+
+    function renderList(){
+      list.textContent="";
+      const shown=state.filtered.slice(0,state.visible);
+      shown.forEach((item,index)=>{
+        const design=buildConcept(item);
+        const button=document.createElement("button");
+        button.type="button";button.className="design-button";button.dataset.id=item.id;
+        button.setAttribute("aria-pressed",String(state.active?.id===item.id));
+        const image=item.thumbnail?`<img src="${escapeHtml(item.thumbnail)}" alt="" loading="lazy">`:"<i></i><b></b>";
+        button.innerHTML=`<span class="design-index">${String(index+1).padStart(3,"0")}</span><span class="concept-thumb${item.thumbnail?" has-image":""}" style="--thumb-bg:${design.paper};--thumb-ink:${design.ink};--thumb-accent:${design.accent};--thumb-accent2:${design.accent2};--thumb-transform:${index%3===0?"rotate(-8deg)":index%3===1?"skewX(-10deg)":"none"}">${image}</span><span class="design-card-body"><span class="design-name">${escapeHtml(displayName(item))}</span><span class="design-id">${escapeHtml(item.id)}</span><span class="design-category">${escapeHtml(categoryLabel(categoryFor(item)))}</span></span>`;
+        button.addEventListener("click",()=>selectDesign(item));list.appendChild(button);
+      });
+      if(shown.length<state.filtered.length){
+        const more=document.createElement("button");
+        more.type="button";more.className="load-more";more.textContent=`더 보기 · ${state.filtered.length-shown.length}개 남음`;
+        more.addEventListener("click",()=>{state.visible+=40;renderList()});list.appendChild(more);
+      }
+      count.textContent=`${shown.length}개 표시 · 검색 결과 ${state.filtered.length} / 전체 ${state.items.length}`;
+    }
+
+    function renderInspector(d){
+      const name=displayName(d.item);
+      document.querySelector("#current-name").textContent=name;
+      document.querySelector("#current-id").textContent=`${d.item.id} · ${d.layout} · ${d.header}`;
+      document.querySelector("#toolbar-brand").textContent=name;
+      const selected=[["배경",d.bg],["용지",d.paper],["텍스트",d.ink],["주조색",d.accent],["보조색",d.accent2]];
+      inspector.innerHTML=`
+        <div class="detail-stats"><div class="detail-stat"><span>Category</span><strong>${escapeHtml(categoryLabel(categoryFor(d.item)))}</strong></div><div class="detail-stat"><span>Template</span><strong>${escapeHtml(d.layout)}</strong></div></div>
+        <p class="adaptation"><strong>독립 기업 컨셉 템플릿</strong><br>원본 DESIGN.md의 색상·간격·폰트 토큰을 읽지 않습니다. 기업의 시각적 인상을 이력서 정보 구조로 새롭게 해석했습니다.</p>
+        <h3>디자인 컨셉</h3><p class="description">${escapeHtml(d.concept)}</p>
+        <h3>컨셉 팔레트</h3><div class="token-list">${selected.map(([key,value])=>`<div class="token"><i style="background:${value}"></i><span>${key}</span><code>${value}</code></div>`).join("")}</div>
+        <h3>전체 구성</h3><ul class="rule-list"><li>${escapeHtml(d.layout)} 정보 구조</li><li>${escapeHtml(d.header)} 헤더 연출</li><li>${escapeHtml(d.projects)} 프로젝트 배열</li><li>${escapeHtml(d.motif)} 전용 장식 모티프</li><li>${escapeHtml(d.visualType)} 시각 자료 · ${escapeHtml(d.fontTone)} 타이포그래피</li><li>A4 인쇄에서는 내용 보존형 3페이지 구조로 자동 전환</li></ul>
+        <a class="external-ref" href="${escapeHtml(d.item.source||`https://getdesign.md/design-md/${encodeURIComponent(d.item.id)}`)}" target="_blank" rel="noopener">getdesign.md 컨셉 보기 ↗</a>`;
+    }
+
+    function selectDesign(item){
+      state.active=item;renderList();
+      state.design=buildConcept(item);
+      renderInspector(state.design);applyDesign();
+      history.replaceState(null,"",`#${encodeURIComponent(item.id)}`);
+    }
+
+    search.addEventListener("input",()=>{
+      applyFilters();
+    });
+    frame.addEventListener("load",()=>{state.frameReady=true;applyDesign()});
+    document.querySelectorAll("[data-viewport]").forEach(button=>button.addEventListener("click",()=>{
+      document.querySelectorAll("[data-viewport]").forEach(item=>item.setAttribute("aria-pressed",String(item===button)));
+      shell.dataset.viewport=button.dataset.viewport;resizeFrame();
+    }));
+    scaleInput.addEventListener("input",updateScale);
+    document.querySelector("#print").addEventListener("click",()=>frame.contentWindow.print());
+    window.addEventListener("resize",resizeFrame);
+
+    (async()=>{
+      try{
+        let response=await fetch("references/awesome-design-md/getdesign/catalog.json",{cache:"no-store"});
+        if(!response.ok)response=await fetch("references/awesome-design-md/index.json",{cache:"no-store"});
+        const catalog=await response.json();
+        // 새 getdesign 카탈로그에 아직 노출되지 않은 기존 74개 컨셉도 함께 보존합니다.
+        let legacy=[];
+        try{const legacyResponse=await fetch("references/awesome-design-md/index.json",{cache:"no-store"});if(legacyResponse.ok)legacy=await legacyResponse.json()}catch{}
+        const known=new Set(catalog.map(item=>item.id));
+        state.items=[...catalog,...legacy.filter(item=>!known.has(item.id))];state.filtered=state.items;
+        document.querySelector("#catalog-total").textContent=`${state.items.length}개 기업`;
+        renderCategories();renderList();
+        const requested=decodeURIComponent(location.hash.slice(1));
+        selectDesign(state.items.find(item=>item.id===requested)||state.items.find(item=>item.id==="ibm")||state.items[0]);
+      }catch(error){count.textContent="불러오기 실패";inspector.innerHTML=`<p class="loading">${escapeHtml(error.message)}<br>로컬 HTTP 서버로 preview.html을 열어주세요.</p>`}
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,4410 @@
+[
+  {
+    "id": "lottiefiles",
+    "name": "Lottiefiles",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/lottiefiles/thumb.jpg",
+    "source": "https://getdesign.md/design-md/lottiefiles",
+    "page": 1
+  },
+  {
+    "id": "lattice",
+    "name": "Lattice",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/lattice/thumb.webp",
+    "source": "https://getdesign.md/design-md/lattice",
+    "page": 1
+  },
+  {
+    "id": "antimetal",
+    "name": "Antimetal",
+    "category": "Backend & DevOps",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/antimetal",
+    "page": 1
+  },
+  {
+    "id": "krepling",
+    "name": "Krepling",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/krepling/thumb.webp",
+    "source": "https://getdesign.md/design-md/krepling",
+    "page": 1
+  },
+  {
+    "id": "titan",
+    "name": "Titan",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/titan/thumb.webp",
+    "source": "https://getdesign.md/design-md/titan",
+    "page": 1
+  },
+  {
+    "id": "betterstack",
+    "name": "Better Stack",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/betterstack/thumb.webp",
+    "source": "https://getdesign.md/design-md/betterstack",
+    "page": 1
+  },
+  {
+    "id": "eraser",
+    "name": "Eraser",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/eraser/thumb.webp",
+    "source": "https://getdesign.md/design-md/eraser",
+    "page": 1
+  },
+  {
+    "id": "healthytogether",
+    "name": "Healthy Together",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/healthytogether/thumb.webp",
+    "source": "https://getdesign.md/design-md/healthytogether",
+    "page": 1
+  },
+  {
+    "id": "passionfroot",
+    "name": "Passionfroot",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/passionfroot/thumb.webp",
+    "source": "https://getdesign.md/design-md/passionfroot",
+    "page": 1
+  },
+  {
+    "id": "june",
+    "name": "June",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/june/thumb.webp",
+    "source": "https://getdesign.md/design-md/june",
+    "page": 1
+  },
+  {
+    "id": "endlesstools",
+    "name": "Endless Tools",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/endlesstools/thumb.webp",
+    "source": "https://getdesign.md/design-md/endlesstools",
+    "page": 1
+  },
+  {
+    "id": "amplemarket",
+    "name": "Amplemarket",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/amplemarket/thumb.webp",
+    "source": "https://getdesign.md/design-md/amplemarket",
+    "page": 1
+  },
+  {
+    "id": "evervault",
+    "name": "Evervault",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/evervault/thumb.webp",
+    "source": "https://getdesign.md/design-md/evervault",
+    "page": 1
+  },
+  {
+    "id": "letters",
+    "name": "Letters",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/letters/thumb.jpg",
+    "source": "https://getdesign.md/design-md/letters",
+    "page": 1
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/jasper/thumb.jpg",
+    "source": "https://getdesign.md/design-md/jasper",
+    "page": 1
+  },
+  {
+    "id": "adaline",
+    "name": "Adaline",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/adaline/thumb.jpg",
+    "source": "https://getdesign.md/design-md/adaline",
+    "page": 1
+  },
+  {
+    "id": "kindsight",
+    "name": "Kindsight",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/kindsight/thumb.jpg",
+    "source": "https://getdesign.md/design-md/kindsight",
+    "page": 2
+  },
+  {
+    "id": "teamwork",
+    "name": "Teamwork",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/teamwork/thumb.webp",
+    "source": "https://getdesign.md/design-md/teamwork",
+    "page": 2
+  },
+  {
+    "id": "kalshi",
+    "name": "Kalshi",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/kalshi/thumb.webp",
+    "source": "https://getdesign.md/design-md/kalshi",
+    "page": 2
+  },
+  {
+    "id": "lifetime",
+    "name": "Life Time",
+    "category": "Media & Consumer",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/lifetime",
+    "page": 2
+  },
+  {
+    "id": "wealthsimple",
+    "name": "Wealthsimple",
+    "category": "Fintech",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/wealthsimple",
+    "page": 2
+  },
+  {
+    "id": "ramp",
+    "name": "Ramp",
+    "category": "Fintech",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/ramp",
+    "page": 2
+  },
+  {
+    "id": "hims",
+    "name": "Hims",
+    "category": "Media & Consumer",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/hims",
+    "page": 2
+  },
+  {
+    "id": "paypal",
+    "name": "PayPal",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/paypal/thumb.webp",
+    "source": "https://getdesign.md/design-md/paypal",
+    "page": 2
+  },
+  {
+    "id": "mckinsey",
+    "name": "McKinsey",
+    "category": "Productivity & SaaS",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/mckinsey",
+    "page": 2
+  },
+  {
+    "id": "slite",
+    "name": "Slite",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/slite/thumb.jpg",
+    "source": "https://getdesign.md/design-md/slite",
+    "page": 2
+  },
+  {
+    "id": "dock",
+    "name": "Dock",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dock/thumb.webp",
+    "source": "https://getdesign.md/design-md/dock",
+    "page": 2
+  },
+  {
+    "id": "three-tools",
+    "name": "ThreeTools",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/three-tools/thumb.jpg",
+    "source": "https://getdesign.md/design-md/three-tools",
+    "page": 2
+  },
+  {
+    "id": "overflow",
+    "name": "Overflow",
+    "category": "Productivity & SaaS",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/overflow",
+    "page": 2
+  },
+  {
+    "id": "zelt",
+    "name": "Zelt",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/zelt/thumb.webp",
+    "source": "https://getdesign.md/design-md/zelt",
+    "page": 2
+  },
+  {
+    "id": "jitter",
+    "name": "Jitter",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/jitter/thumb.jpg",
+    "source": "https://getdesign.md/design-md/jitter",
+    "page": 2
+  },
+  {
+    "id": "mux",
+    "name": "Mux",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mux/thumb.webp",
+    "source": "https://getdesign.md/design-md/mux",
+    "page": 2
+  },
+  {
+    "id": "phantom",
+    "name": "Phantom",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/phantom/thumb.webp",
+    "source": "https://getdesign.md/design-md/phantom",
+    "page": 3
+  },
+  {
+    "id": "dayos",
+    "name": "Dayos",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dayos/thumb.jpg",
+    "source": "https://getdesign.md/design-md/dayos",
+    "page": 3
+  },
+  {
+    "id": "planhat",
+    "name": "Planhat",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/planhat/thumb.webp",
+    "source": "https://getdesign.md/design-md/planhat",
+    "page": 3
+  },
+  {
+    "id": "relate-so",
+    "name": "Relate",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/relate-so/thumb.webp",
+    "source": "https://getdesign.md/design-md/relate-so",
+    "page": 3
+  },
+  {
+    "id": "huly",
+    "name": "Huly",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/huly/thumb.webp",
+    "source": "https://getdesign.md/design-md/huly",
+    "page": 3
+  },
+  {
+    "id": "orderful",
+    "name": "Orderful",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/orderful/thumb.webp",
+    "source": "https://getdesign.md/design-md/orderful",
+    "page": 3
+  },
+  {
+    "id": "basedash",
+    "name": "Basedash",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/basedash/thumb.jpg",
+    "source": "https://getdesign.md/design-md/basedash",
+    "page": 3
+  },
+  {
+    "id": "gotomorro",
+    "name": "Tomorro",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/gotomorro/thumb.webp",
+    "source": "https://getdesign.md/design-md/gotomorro",
+    "page": 3
+  },
+  {
+    "id": "subframe",
+    "name": "Subframe",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/subframe/thumb.jpg",
+    "source": "https://getdesign.md/design-md/subframe",
+    "page": 3
+  },
+  {
+    "id": "pencilbooth",
+    "name": "PencilBooth",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/pencilbooth/thumb.webp",
+    "source": "https://getdesign.md/design-md/pencilbooth",
+    "page": 3
+  },
+  {
+    "id": "attio",
+    "name": "Attio",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/attio/thumb.jpg",
+    "source": "https://getdesign.md/design-md/attio",
+    "page": 3
+  },
+  {
+    "id": "superlist",
+    "name": "Superlist",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/superlist/thumb.webp",
+    "source": "https://getdesign.md/design-md/superlist",
+    "page": 3
+  },
+  {
+    "id": "newformcap",
+    "name": "New Form Capital",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/newformcap/thumb.webp",
+    "source": "https://getdesign.md/design-md/newformcap",
+    "page": 3
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt",
+    "category": "E-commerce",
+    "thumbnail": "https://cdn.getdesign.md/catalog/bolt/thumb.webp",
+    "source": "https://getdesign.md/design-md/bolt",
+    "page": 3
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/devin/thumb.jpg",
+    "source": "https://getdesign.md/design-md/devin",
+    "page": 3
+  },
+  {
+    "id": "motherduck",
+    "name": "MotherDuck",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/motherduck/thumb.webp",
+    "source": "https://getdesign.md/design-md/motherduck",
+    "page": 3
+  },
+  {
+    "id": "modal",
+    "name": "Modal",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/modal/thumb.jpg",
+    "source": "https://getdesign.md/design-md/modal",
+    "page": 4
+  },
+  {
+    "id": "linearity",
+    "name": "Linearity",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/linearity/thumb.webp",
+    "source": "https://getdesign.md/design-md/linearity",
+    "page": 4
+  },
+  {
+    "id": "withcompound",
+    "name": "Compound",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/withcompound/thumb.webp",
+    "source": "https://getdesign.md/design-md/withcompound",
+    "page": 4
+  },
+  {
+    "id": "saybriefly",
+    "name": "Say Briefly",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/saybriefly/thumb.jpg",
+    "source": "https://getdesign.md/design-md/saybriefly",
+    "page": 4
+  },
+  {
+    "id": "streamtime",
+    "name": "Streamtime",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/streamtime/thumb.jpg",
+    "source": "https://getdesign.md/design-md/streamtime",
+    "page": 4
+  },
+  {
+    "id": "circleso",
+    "name": "Circle",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/circleso/thumb.webp",
+    "source": "https://getdesign.md/design-md/circleso",
+    "page": 4
+  },
+  {
+    "id": "pirsch",
+    "name": "Pirsch",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/pirsch/thumb.webp",
+    "source": "https://getdesign.md/design-md/pirsch",
+    "page": 4
+  },
+  {
+    "id": "workflow",
+    "name": "Workflow",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/workflow/thumb.webp",
+    "source": "https://getdesign.md/design-md/workflow",
+    "page": 4
+  },
+  {
+    "id": "zkpass",
+    "name": "zkPass",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/zkpass/thumb.webp",
+    "source": "https://getdesign.md/design-md/zkpass",
+    "page": 4
+  },
+  {
+    "id": "rootly",
+    "name": "Rootly",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/rootly/thumb.jpg",
+    "source": "https://getdesign.md/design-md/rootly",
+    "page": 4
+  },
+  {
+    "id": "morflax",
+    "name": "Morflax",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/morflax/thumb.webp",
+    "source": "https://getdesign.md/design-md/morflax",
+    "page": 4
+  },
+  {
+    "id": "pipe",
+    "name": "Pipe",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/pipe/thumb.webp",
+    "source": "https://getdesign.md/design-md/pipe",
+    "page": 4
+  },
+  {
+    "id": "cassettine",
+    "name": "Cassettine",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cassettine/thumb.webp",
+    "source": "https://getdesign.md/design-md/cassettine",
+    "page": 4
+  },
+  {
+    "id": "pop-site",
+    "name": "Pop Site",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/pop-site/thumb.jpg",
+    "source": "https://getdesign.md/design-md/pop-site",
+    "page": 4
+  },
+  {
+    "id": "unicorn",
+    "name": "Unicorn.studio",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/unicorn/thumb.jpg",
+    "source": "https://getdesign.md/design-md/unicorn",
+    "page": 4
+  },
+  {
+    "id": "kosmik",
+    "name": "Kosmik",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/kosmik/thumb.webp",
+    "source": "https://getdesign.md/design-md/kosmik",
+    "page": 4
+  },
+  {
+    "id": "loom",
+    "name": "Loom",
+    "category": "Productivity & SaaS",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/loom",
+    "page": 5
+  },
+  {
+    "id": "wope",
+    "name": "Wope",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/wope/thumb.webp",
+    "source": "https://getdesign.md/design-md/wope",
+    "page": 5
+  },
+  {
+    "id": "duna",
+    "name": "Duna",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/duna/thumb.jpg",
+    "source": "https://getdesign.md/design-md/duna",
+    "page": 5
+  },
+  {
+    "id": "ada",
+    "name": "Ada",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/ada/thumb.jpg",
+    "source": "https://getdesign.md/design-md/ada",
+    "page": 5
+  },
+  {
+    "id": "saucelabs",
+    "name": "Sauce Labs",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/saucelabs/thumb.webp",
+    "source": "https://getdesign.md/design-md/saucelabs",
+    "page": 5
+  },
+  {
+    "id": "ko-fi",
+    "name": "Ko-fi",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/ko-fi/thumb.jpg",
+    "source": "https://getdesign.md/design-md/ko-fi",
+    "page": 5
+  },
+  {
+    "id": "madewithgsap",
+    "name": "Made With Gsap",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/madewithgsap/thumb.jpg",
+    "source": "https://getdesign.md/design-md/madewithgsap",
+    "page": 5
+  },
+  {
+    "id": "turn",
+    "name": "Turn.io",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/turn/thumb.jpg",
+    "source": "https://getdesign.md/design-md/turn",
+    "page": 5
+  },
+  {
+    "id": "clutch",
+    "name": "Clutch Sercurity",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/clutch/thumb.jpg",
+    "source": "https://getdesign.md/design-md/clutch",
+    "page": 5
+  },
+  {
+    "id": "portrait",
+    "name": "Portrait",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/portrait/thumb.jpg",
+    "source": "https://getdesign.md/design-md/portrait",
+    "page": 5
+  },
+  {
+    "id": "headroom",
+    "name": "Headroom",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/headroom/thumb.jpg",
+    "source": "https://getdesign.md/design-md/headroom",
+    "page": 5
+  },
+  {
+    "id": "vetric",
+    "name": "Vetric",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/vetric/thumb.jpg",
+    "source": "https://getdesign.md/design-md/vetric",
+    "page": 5
+  },
+  {
+    "id": "cap",
+    "name": "Cap",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cap/thumb.jpg",
+    "source": "https://getdesign.md/design-md/cap",
+    "page": 5
+  },
+  {
+    "id": "cluely",
+    "name": "Cluely",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cluely/thumb.jpg",
+    "source": "https://getdesign.md/design-md/cluely",
+    "page": 5
+  },
+  {
+    "id": "trustditto",
+    "name": "Ditto",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/trustditto/thumb.jpg",
+    "source": "https://getdesign.md/design-md/trustditto",
+    "page": 5
+  },
+  {
+    "id": "craft-do",
+    "name": "Craft",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/craft-do/thumb.jpg",
+    "source": "https://getdesign.md/design-md/craft-do",
+    "page": 5
+  },
+  {
+    "id": "operate",
+    "name": "Operate",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/operate/thumb.jpg",
+    "source": "https://getdesign.md/design-md/operate",
+    "page": 6
+  },
+  {
+    "id": "createanything",
+    "name": "Anything",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/createanything/thumb.jpg",
+    "source": "https://getdesign.md/design-md/createanything",
+    "page": 6
+  },
+  {
+    "id": "paradigmai",
+    "name": "Paradigm",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/paradigmai/thumb.jpg",
+    "source": "https://getdesign.md/design-md/paradigmai",
+    "page": 6
+  },
+  {
+    "id": "useportal",
+    "name": "Portal",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/useportal/thumb.jpg",
+    "source": "https://getdesign.md/design-md/useportal",
+    "page": 6
+  },
+  {
+    "id": "geniestudio",
+    "name": "Genie",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/geniestudio/thumb.jpg",
+    "source": "https://getdesign.md/design-md/geniestudio",
+    "page": 6
+  },
+  {
+    "id": "brainfishai",
+    "name": "Brainfish",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/brainfishai/thumb.jpg",
+    "source": "https://getdesign.md/design-md/brainfishai",
+    "page": 6
+  },
+  {
+    "id": "react-email",
+    "name": "React Email",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/react-email/thumb.jpg",
+    "source": "https://getdesign.md/design-md/react-email",
+    "page": 6
+  },
+  {
+    "id": "era-app",
+    "name": "Era",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/era-app/thumb.jpg",
+    "source": "https://getdesign.md/design-md/era-app",
+    "page": 6
+  },
+  {
+    "id": "qatchup",
+    "name": "Qatchup",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/qatchup/thumb.jpg",
+    "source": "https://getdesign.md/design-md/qatchup",
+    "page": 6
+  },
+  {
+    "id": "outseta",
+    "name": "Outseta",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/outseta/thumb.jpg",
+    "source": "https://getdesign.md/design-md/outseta",
+    "page": 6
+  },
+  {
+    "id": "cntrl",
+    "name": "Control",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cntrl/thumb.jpg",
+    "source": "https://getdesign.md/design-md/cntrl",
+    "page": 6
+  },
+  {
+    "id": "cora",
+    "name": "Cora",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cora/thumb.jpg",
+    "source": "https://getdesign.md/design-md/cora",
+    "page": 6
+  },
+  {
+    "id": "merlin",
+    "name": "Merlin",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/merlin/thumb.jpg",
+    "source": "https://getdesign.md/design-md/merlin",
+    "page": 6
+  },
+  {
+    "id": "paper",
+    "name": "Paper",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/paper/thumb.jpg",
+    "source": "https://getdesign.md/design-md/paper",
+    "page": 6
+  },
+  {
+    "id": "monologue",
+    "name": "Monologue",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/monologue/thumb.jpg",
+    "source": "https://getdesign.md/design-md/monologue",
+    "page": 6
+  },
+  {
+    "id": "relace",
+    "name": "Relace",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/relace/thumb.jpg",
+    "source": "https://getdesign.md/design-md/relace",
+    "page": 6
+  },
+  {
+    "id": "sparkles",
+    "name": "Sparkles",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/sparkles/thumb.jpg",
+    "source": "https://getdesign.md/design-md/sparkles",
+    "page": 7
+  },
+  {
+    "id": "theleap",
+    "name": "The Leap",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/theleap/thumb.webp",
+    "source": "https://getdesign.md/design-md/theleap",
+    "page": 7
+  },
+  {
+    "id": "super",
+    "name": "Super",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/super/thumb.webp",
+    "source": "https://getdesign.md/design-md/super",
+    "page": 7
+  },
+  {
+    "id": "juicebox",
+    "name": "Juicebox",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/juicebox/thumb.webp",
+    "source": "https://getdesign.md/design-md/juicebox",
+    "page": 7
+  },
+  {
+    "id": "replit",
+    "name": "Replit",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/replit/thumb.webp",
+    "source": "https://getdesign.md/design-md/replit",
+    "page": 7
+  },
+  {
+    "id": "cycleapp",
+    "name": "Cycle",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cycleapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/cycleapp",
+    "page": 7
+  },
+  {
+    "id": "threads",
+    "name": "Threads",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/threads/thumb.webp",
+    "source": "https://getdesign.md/design-md/threads",
+    "page": 7
+  },
+  {
+    "id": "amra",
+    "name": "amra",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/amra/thumb.webp",
+    "source": "https://getdesign.md/design-md/amra",
+    "page": 7
+  },
+  {
+    "id": "rally-space",
+    "name": "Rally",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/rally-space/thumb.webp",
+    "source": "https://getdesign.md/design-md/rally-space",
+    "page": 7
+  },
+  {
+    "id": "tedy",
+    "name": "Tedy",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tedy/thumb.webp",
+    "source": "https://getdesign.md/design-md/tedy",
+    "page": 7
+  },
+  {
+    "id": "usetola",
+    "name": "Tola",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/usetola/thumb.webp",
+    "source": "https://getdesign.md/design-md/usetola",
+    "page": 7
+  },
+  {
+    "id": "metadrop",
+    "name": "Metadrop",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/metadrop/thumb.webp",
+    "source": "https://getdesign.md/design-md/metadrop",
+    "page": 7
+  },
+  {
+    "id": "canopy-is",
+    "name": "Canopy",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/canopy-is/thumb.webp",
+    "source": "https://getdesign.md/design-md/canopy-is",
+    "page": 7
+  },
+  {
+    "id": "penpot",
+    "name": "Penpot",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/penpot/thumb.webp",
+    "source": "https://getdesign.md/design-md/penpot",
+    "page": 7
+  },
+  {
+    "id": "flox",
+    "name": "Flox",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/flox/thumb.webp",
+    "source": "https://getdesign.md/design-md/flox",
+    "page": 7
+  },
+  {
+    "id": "textla",
+    "name": "Textla",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/textla/thumb.webp",
+    "source": "https://getdesign.md/design-md/textla",
+    "page": 7
+  },
+  {
+    "id": "strut",
+    "name": "Strut",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/strut/thumb.webp",
+    "source": "https://getdesign.md/design-md/strut",
+    "page": 8
+  },
+  {
+    "id": "listenup",
+    "name": "ListenUp!",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/listenup/thumb.webp",
+    "source": "https://getdesign.md/design-md/listenup",
+    "page": 8
+  },
+  {
+    "id": "holograph",
+    "name": "Holograph",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/holograph/thumb.webp",
+    "source": "https://getdesign.md/design-md/holograph",
+    "page": 8
+  },
+  {
+    "id": "buymeacoffee",
+    "name": "Buy Me a Coffee",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/buymeacoffee/thumb.webp",
+    "source": "https://getdesign.md/design-md/buymeacoffee",
+    "page": 8
+  },
+  {
+    "id": "thepatchsystem",
+    "name": "Patch",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/thepatchsystem/thumb.webp",
+    "source": "https://getdesign.md/design-md/thepatchsystem",
+    "page": 8
+  },
+  {
+    "id": "getapron",
+    "name": "Apron",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/getapron/thumb.webp",
+    "source": "https://getdesign.md/design-md/getapron",
+    "page": 8
+  },
+  {
+    "id": "impilo",
+    "name": "Impilo",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/impilo/thumb.webp",
+    "source": "https://getdesign.md/design-md/impilo",
+    "page": 8
+  },
+  {
+    "id": "glyphy",
+    "name": "Glyphy",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/glyphy/thumb.webp",
+    "source": "https://getdesign.md/design-md/glyphy",
+    "page": 8
+  },
+  {
+    "id": "liveblocks",
+    "name": "Liveblocks",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/liveblocks/thumb.webp",
+    "source": "https://getdesign.md/design-md/liveblocks",
+    "page": 8
+  },
+  {
+    "id": "hatch-fm",
+    "name": "Hatch",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/hatch-fm/thumb.webp",
+    "source": "https://getdesign.md/design-md/hatch-fm",
+    "page": 8
+  },
+  {
+    "id": "openserv",
+    "name": "OpenServ",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/openserv/thumb.webp",
+    "source": "https://getdesign.md/design-md/openserv",
+    "page": 8
+  },
+  {
+    "id": "uizard",
+    "name": "Uizard",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/uizard/thumb.webp",
+    "source": "https://getdesign.md/design-md/uizard",
+    "page": 8
+  },
+  {
+    "id": "fly",
+    "name": "Fly",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/fly/thumb.webp",
+    "source": "https://getdesign.md/design-md/fly",
+    "page": 8
+  },
+  {
+    "id": "planpoint",
+    "name": "Planpoint",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/planpoint/thumb.webp",
+    "source": "https://getdesign.md/design-md/planpoint",
+    "page": 8
+  },
+  {
+    "id": "artboard-studio",
+    "name": "Artboard Studio",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/artboard-studio/thumb.webp",
+    "source": "https://getdesign.md/design-md/artboard-studio",
+    "page": 8
+  },
+  {
+    "id": "lithic",
+    "name": "Lithic",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/lithic/thumb.webp",
+    "source": "https://getdesign.md/design-md/lithic",
+    "page": 8
+  },
+  {
+    "id": "todoist",
+    "name": "Todoist",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/todoist/thumb.webp",
+    "source": "https://getdesign.md/design-md/todoist",
+    "page": 9
+  },
+  {
+    "id": "studio-design",
+    "name": "STUDIO",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/studio-design/thumb.webp",
+    "source": "https://getdesign.md/design-md/studio-design",
+    "page": 9
+  },
+  {
+    "id": "podscan",
+    "name": "Podscan.fm",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/podscan/thumb.webp",
+    "source": "https://getdesign.md/design-md/podscan",
+    "page": 9
+  },
+  {
+    "id": "fonts-ninja",
+    "name": "Fonts Ninja",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/fonts-ninja/thumb.webp",
+    "source": "https://getdesign.md/design-md/fonts-ninja",
+    "page": 9
+  },
+  {
+    "id": "morphic",
+    "name": "Morphic",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/morphic/thumb.webp",
+    "source": "https://getdesign.md/design-md/morphic",
+    "page": 9
+  },
+  {
+    "id": "gitbook",
+    "name": "GitBook",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/gitbook/thumb.webp",
+    "source": "https://getdesign.md/design-md/gitbook",
+    "page": 9
+  },
+  {
+    "id": "codex",
+    "name": "Codex",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/codex/thumb.webp",
+    "source": "https://getdesign.md/design-md/codex",
+    "page": 9
+  },
+  {
+    "id": "heyquin",
+    "name": "Quin",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/heyquin/thumb.jpg",
+    "source": "https://getdesign.md/design-md/heyquin",
+    "page": 9
+  },
+  {
+    "id": "seline",
+    "name": "Seline",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/seline/thumb.webp",
+    "source": "https://getdesign.md/design-md/seline",
+    "page": 9
+  },
+  {
+    "id": "fasthtml",
+    "name": "FastHTML",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/fasthtml/thumb.webp",
+    "source": "https://getdesign.md/design-md/fasthtml",
+    "page": 9
+  },
+  {
+    "id": "ctrl",
+    "name": "CTRL Wallet",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/ctrl/thumb.webp",
+    "source": "https://getdesign.md/design-md/ctrl",
+    "page": 9
+  },
+  {
+    "id": "gopano",
+    "name": "Pano",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/gopano/thumb.webp",
+    "source": "https://getdesign.md/design-md/gopano",
+    "page": 9
+  },
+  {
+    "id": "shuttle",
+    "name": "Shuttle",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/shuttle/thumb.webp",
+    "source": "https://getdesign.md/design-md/shuttle",
+    "page": 9
+  },
+  {
+    "id": "dope-security",
+    "name": "Dope Security",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dope-security/thumb.webp",
+    "source": "https://getdesign.md/design-md/dope-security",
+    "page": 9
+  },
+  {
+    "id": "langbase",
+    "name": "⌘ Langbase",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/langbase/thumb.webp",
+    "source": "https://getdesign.md/design-md/langbase",
+    "page": 9
+  },
+  {
+    "id": "cakeequity",
+    "name": "Cake Equity",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cakeequity/thumb.webp",
+    "source": "https://getdesign.md/design-md/cakeequity",
+    "page": 9
+  },
+  {
+    "id": "reworkd",
+    "name": "Reworkd AI",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/reworkd/thumb.webp",
+    "source": "https://getdesign.md/design-md/reworkd",
+    "page": 10
+  },
+  {
+    "id": "buzzsprout",
+    "name": "Buzzsprout",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/buzzsprout/thumb.webp",
+    "source": "https://getdesign.md/design-md/buzzsprout",
+    "page": 10
+  },
+  {
+    "id": "retool",
+    "name": "Retool",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/retool/thumb.webp",
+    "source": "https://getdesign.md/design-md/retool",
+    "page": 10
+  },
+  {
+    "id": "tuple",
+    "name": "Tuple",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tuple/thumb.webp",
+    "source": "https://getdesign.md/design-md/tuple",
+    "page": 10
+  },
+  {
+    "id": "privy",
+    "name": "Privy",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/privy/thumb.webp",
+    "source": "https://getdesign.md/design-md/privy",
+    "page": 10
+  },
+  {
+    "id": "aave",
+    "name": "Aave",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/aave/thumb.webp",
+    "source": "https://getdesign.md/design-md/aave",
+    "page": 10
+  },
+  {
+    "id": "coinshift",
+    "name": "Coinshift",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/coinshift/thumb.webp",
+    "source": "https://getdesign.md/design-md/coinshift",
+    "page": 10
+  },
+  {
+    "id": "qatalog",
+    "name": "Qatalog",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/qatalog/thumb.webp",
+    "source": "https://getdesign.md/design-md/qatalog",
+    "page": 10
+  },
+  {
+    "id": "switch-lit",
+    "name": "Switch-Lit",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/switch-lit/thumb.webp",
+    "source": "https://getdesign.md/design-md/switch-lit",
+    "page": 10
+  },
+  {
+    "id": "height-app",
+    "name": "Height",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/height-app/thumb.webp",
+    "source": "https://getdesign.md/design-md/height-app",
+    "page": 10
+  },
+  {
+    "id": "agentql",
+    "name": "AgentQL",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/agentql/thumb.webp",
+    "source": "https://getdesign.md/design-md/agentql",
+    "page": 10
+  },
+  {
+    "id": "thenile",
+    "name": "Nile Postgres",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/thenile/thumb.webp",
+    "source": "https://getdesign.md/design-md/thenile",
+    "page": 10
+  },
+  {
+    "id": "paywithpeppermint",
+    "name": "Peppermint",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/paywithpeppermint/thumb.webp",
+    "source": "https://getdesign.md/design-md/paywithpeppermint",
+    "page": 10
+  },
+  {
+    "id": "buddy-works",
+    "name": "Buddy",
+    "category": "E-commerce",
+    "thumbnail": "https://cdn.getdesign.md/catalog/buddy-works/thumb.webp",
+    "source": "https://getdesign.md/design-md/buddy-works",
+    "page": 10
+  },
+  {
+    "id": "pass-app",
+    "name": "Pass App",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/pass-app/thumb.webp",
+    "source": "https://getdesign.md/design-md/pass-app",
+    "page": 10
+  },
+  {
+    "id": "kit",
+    "name": "Kit",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/kit/thumb.webp",
+    "source": "https://getdesign.md/design-md/kit",
+    "page": 10
+  },
+  {
+    "id": "sketch",
+    "name": "Sketch",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/sketch/thumb.webp",
+    "source": "https://getdesign.md/design-md/sketch",
+    "page": 11
+  },
+  {
+    "id": "fal",
+    "name": "fal.ai",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/fal/thumb.webp",
+    "source": "https://getdesign.md/design-md/fal",
+    "page": 11
+  },
+  {
+    "id": "podia",
+    "name": "Podia",
+    "category": "E-commerce",
+    "thumbnail": "https://cdn.getdesign.md/catalog/podia/thumb.webp",
+    "source": "https://getdesign.md/design-md/podia",
+    "page": 11
+  },
+  {
+    "id": "front",
+    "name": "Front",
+    "category": "Productivity & SaaS",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/front",
+    "page": 11
+  },
+  {
+    "id": "decideai",
+    "name": "Decide AI",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/decideai/thumb.webp",
+    "source": "https://getdesign.md/design-md/decideai",
+    "page": 11
+  },
+  {
+    "id": "clay-com",
+    "name": "Clay",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/clay-com/thumb.jpg",
+    "source": "https://getdesign.md/design-md/clay-com",
+    "page": 11
+  },
+  {
+    "id": "index-app",
+    "name": "Index",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/index-app/thumb.jpg",
+    "source": "https://getdesign.md/design-md/index-app",
+    "page": 11
+  },
+  {
+    "id": "genway",
+    "name": "Genway",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/genway/thumb.jpg",
+    "source": "https://getdesign.md/design-md/genway",
+    "page": 11
+  },
+  {
+    "id": "fabric-so",
+    "name": "Fabric",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/fabric-so/thumb.jpg",
+    "source": "https://getdesign.md/design-md/fabric-so",
+    "page": 11
+  },
+  {
+    "id": "granola",
+    "name": "Granola",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/granola/thumb.jpg",
+    "source": "https://getdesign.md/design-md/granola",
+    "page": 11
+  },
+  {
+    "id": "shareio",
+    "name": "Shareio",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/shareio/thumb.jpg",
+    "source": "https://getdesign.md/design-md/shareio",
+    "page": 11
+  },
+  {
+    "id": "dub",
+    "name": "Dub.co",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dub/thumb.jpg",
+    "source": "https://getdesign.md/design-md/dub",
+    "page": 11
+  },
+  {
+    "id": "herokit",
+    "name": "HeroKit",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/herokit/thumb.jpg",
+    "source": "https://getdesign.md/design-md/herokit",
+    "page": 11
+  },
+  {
+    "id": "browserbase",
+    "name": "Browserbase",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/browserbase/thumb.jpg",
+    "source": "https://getdesign.md/design-md/browserbase",
+    "page": 11
+  },
+  {
+    "id": "hellotime",
+    "name": "Hellotime",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/hellotime/thumb.jpg",
+    "source": "https://getdesign.md/design-md/hellotime",
+    "page": 11
+  },
+  {
+    "id": "spellbook",
+    "name": "Spellbook",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/spellbook/thumb.jpg",
+    "source": "https://getdesign.md/design-md/spellbook",
+    "page": 11
+  },
+  {
+    "id": "index-inc",
+    "name": "Index Inc",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/index-inc/thumb.jpg",
+    "source": "https://getdesign.md/design-md/index-inc",
+    "page": 12
+  },
+  {
+    "id": "portalgaming",
+    "name": "Portal",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/portalgaming/thumb.jpg",
+    "source": "https://getdesign.md/design-md/portalgaming",
+    "page": 12
+  },
+  {
+    "id": "statamic",
+    "name": "Statamic",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/statamic/thumb.jpg",
+    "source": "https://getdesign.md/design-md/statamic",
+    "page": 12
+  },
+  {
+    "id": "equals",
+    "name": "Equals",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/equals/thumb.jpg",
+    "source": "https://getdesign.md/design-md/equals",
+    "page": 12
+  },
+  {
+    "id": "oxide-computer",
+    "name": "Oxide Computer",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/oxide-computer/thumb.jpg",
+    "source": "https://getdesign.md/design-md/oxide-computer",
+    "page": 12
+  },
+  {
+    "id": "osmo-supply",
+    "name": "Osmo Supply",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/osmo-supply/thumb.jpg",
+    "source": "https://getdesign.md/design-md/osmo-supply",
+    "page": 12
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS v4.0",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tailwindcss/thumb.jpg",
+    "source": "https://getdesign.md/design-md/tailwindcss",
+    "page": 12
+  },
+  {
+    "id": "acctual",
+    "name": "Acctual",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/acctual/thumb.jpg",
+    "source": "https://getdesign.md/design-md/acctual",
+    "page": 12
+  },
+  {
+    "id": "tana",
+    "name": "Tana",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tana/thumb.jpg",
+    "source": "https://getdesign.md/design-md/tana",
+    "page": 12
+  },
+  {
+    "id": "default",
+    "name": "Default",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/default/thumb.jpg",
+    "source": "https://getdesign.md/design-md/default",
+    "page": 12
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/gamma/thumb.jpg",
+    "source": "https://getdesign.md/design-md/gamma",
+    "page": 12
+  },
+  {
+    "id": "paper-design",
+    "name": "Paper Design",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/paper-design/thumb.jpg",
+    "source": "https://getdesign.md/design-md/paper-design",
+    "page": 12
+  },
+  {
+    "id": "obscura",
+    "name": "Obscura VPN",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/obscura/thumb.jpg",
+    "source": "https://getdesign.md/design-md/obscura",
+    "page": 12
+  },
+  {
+    "id": "viewport",
+    "name": "Viewport",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/viewport/thumb.jpg",
+    "source": "https://getdesign.md/design-md/viewport",
+    "page": 12
+  },
+  {
+    "id": "deta",
+    "name": "Deta Surf",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/deta/thumb.jpg",
+    "source": "https://getdesign.md/design-md/deta",
+    "page": 12
+  },
+  {
+    "id": "vapi",
+    "name": "Vapi",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/vapi/thumb.jpg",
+    "source": "https://getdesign.md/design-md/vapi",
+    "page": 12
+  },
+  {
+    "id": "caldera",
+    "name": "Caldera",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/caldera/thumb.jpg",
+    "source": "https://getdesign.md/design-md/caldera",
+    "page": 13
+  },
+  {
+    "id": "sublime",
+    "name": "Sublime",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/sublime/thumb.jpg",
+    "source": "https://getdesign.md/design-md/sublime",
+    "page": 13
+  },
+  {
+    "id": "heynds",
+    "name": "Heynds",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/heynds/thumb.jpg",
+    "source": "https://getdesign.md/design-md/heynds",
+    "page": 13
+  },
+  {
+    "id": "amie",
+    "name": "Amie",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/amie/thumb.jpg",
+    "source": "https://getdesign.md/design-md/amie",
+    "page": 13
+  },
+  {
+    "id": "micro",
+    "name": "Micro",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/micro/thumb.jpg",
+    "source": "https://getdesign.md/design-md/micro",
+    "page": 13
+  },
+  {
+    "id": "voicenotes",
+    "name": "Voicenotes",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/voicenotes/thumb.jpg",
+    "source": "https://getdesign.md/design-md/voicenotes",
+    "page": 13
+  },
+  {
+    "id": "memorisely",
+    "name": "Memorisely",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/memorisely/thumb.webp",
+    "source": "https://getdesign.md/design-md/memorisely",
+    "page": 13
+  },
+  {
+    "id": "imgs-so",
+    "name": "imgs.so",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/imgs-so/thumb.webp",
+    "source": "https://getdesign.md/design-md/imgs-so",
+    "page": 13
+  },
+  {
+    "id": "prototyper-for-figma",
+    "name": "Prototyper for Figma",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/prototyper-for-figma/thumb.webp",
+    "source": "https://getdesign.md/design-md/prototyper-for-figma",
+    "page": 13
+  },
+  {
+    "id": "motionformobile",
+    "name": "Motion For Mobile",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/motionformobile/thumb.webp",
+    "source": "https://getdesign.md/design-md/motionformobile",
+    "page": 13
+  },
+  {
+    "id": "arcadia",
+    "name": "Arcadia",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/arcadia/thumb.webp",
+    "source": "https://getdesign.md/design-md/arcadia",
+    "page": 13
+  },
+  {
+    "id": "movingparts",
+    "name": "Moving Parts",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/movingparts/thumb.webp",
+    "source": "https://getdesign.md/design-md/movingparts",
+    "page": 13
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/copy-ai/thumb.webp",
+    "source": "https://getdesign.md/design-md/copy-ai",
+    "page": 13
+  },
+  {
+    "id": "beeper",
+    "name": "Beeper",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/beeper/thumb.webp",
+    "source": "https://getdesign.md/design-md/beeper",
+    "page": 13
+  },
+  {
+    "id": "tableland",
+    "name": "Tableland",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tableland/thumb.webp",
+    "source": "https://getdesign.md/design-md/tableland",
+    "page": 13
+  },
+  {
+    "id": "everlend",
+    "name": "Everlend",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/everlend/thumb.webp",
+    "source": "https://getdesign.md/design-md/everlend",
+    "page": 13
+  },
+  {
+    "id": "sileon",
+    "name": "Sileon",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/sileon/thumb.webp",
+    "source": "https://getdesign.md/design-md/sileon",
+    "page": 14
+  },
+  {
+    "id": "coinflect",
+    "name": "Coinflect",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/coinflect/thumb.webp",
+    "source": "https://getdesign.md/design-md/coinflect",
+    "page": 14
+  },
+  {
+    "id": "moonli",
+    "name": "Moonli",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/moonli/thumb.webp",
+    "source": "https://getdesign.md/design-md/moonli",
+    "page": 14
+  },
+  {
+    "id": "opencollective",
+    "name": "Open Collective",
+    "category": "Fintech",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/opencollective",
+    "page": 14
+  },
+  {
+    "id": "getrepeat",
+    "name": "Repeat",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/getrepeat/thumb.webp",
+    "source": "https://getdesign.md/design-md/getrepeat",
+    "page": 14
+  },
+  {
+    "id": "equals-app",
+    "name": "Equals",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/equals-app/thumb.webp",
+    "source": "https://getdesign.md/design-md/equals-app",
+    "page": 14
+  },
+  {
+    "id": "axelar-network",
+    "name": "Axelar",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/axelar-network/thumb.webp",
+    "source": "https://getdesign.md/design-md/axelar-network",
+    "page": 14
+  },
+  {
+    "id": "wowpage",
+    "name": "WOW-page",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/wowpage/thumb.webp",
+    "source": "https://getdesign.md/design-md/wowpage",
+    "page": 14
+  },
+  {
+    "id": "awesomic",
+    "name": "Awesomic",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/awesomic/thumb.webp",
+    "source": "https://getdesign.md/design-md/awesomic",
+    "page": 14
+  },
+  {
+    "id": "useparallel",
+    "name": "Parallel",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/useparallel/thumb.webp",
+    "source": "https://getdesign.md/design-md/useparallel",
+    "page": 14
+  },
+  {
+    "id": "sprout",
+    "name": "Sprout",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/sprout/thumb.webp",
+    "source": "https://getdesign.md/design-md/sprout",
+    "page": 14
+  },
+  {
+    "id": "relayed",
+    "name": "Relayed",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/relayed/thumb.webp",
+    "source": "https://getdesign.md/design-md/relayed",
+    "page": 14
+  },
+  {
+    "id": "sandclock",
+    "name": "Sandclock",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/sandclock/thumb.webp",
+    "source": "https://getdesign.md/design-md/sandclock",
+    "page": 14
+  },
+  {
+    "id": "getstark",
+    "name": "Stark",
+    "category": "Productivity & SaaS",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/getstark",
+    "page": 14
+  },
+  {
+    "id": "idle-finance",
+    "name": "Idle Finance",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/idle-finance/thumb.webp",
+    "source": "https://getdesign.md/design-md/idle-finance",
+    "page": 14
+  },
+  {
+    "id": "safepal",
+    "name": "SafePal",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/safepal/thumb.webp",
+    "source": "https://getdesign.md/design-md/safepal",
+    "page": 14
+  },
+  {
+    "id": "literal-club",
+    "name": "Literal",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/literal-club/thumb.webp",
+    "source": "https://getdesign.md/design-md/literal-club",
+    "page": 15
+  },
+  {
+    "id": "grabee",
+    "name": "Grabee",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/grabee/thumb.webp",
+    "source": "https://getdesign.md/design-md/grabee",
+    "page": 15
+  },
+  {
+    "id": "aninix",
+    "name": "Aninix",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/aninix/thumb.webp",
+    "source": "https://getdesign.md/design-md/aninix",
+    "page": 15
+  },
+  {
+    "id": "shapeco",
+    "name": "Shape",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/shapeco/thumb.webp",
+    "source": "https://getdesign.md/design-md/shapeco",
+    "page": 15
+  },
+  {
+    "id": "ecosia",
+    "name": "Ecosia",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/ecosia/thumb.webp",
+    "source": "https://getdesign.md/design-md/ecosia",
+    "page": 15
+  },
+  {
+    "id": "campsite-design",
+    "name": "Campsite",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/campsite-design/thumb.webp",
+    "source": "https://getdesign.md/design-md/campsite-design",
+    "page": 15
+  },
+  {
+    "id": "arc",
+    "name": "Arc",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/arc/thumb.webp",
+    "source": "https://getdesign.md/design-md/arc",
+    "page": 15
+  },
+  {
+    "id": "film-ai",
+    "name": "Flim",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/film-ai/thumb.webp",
+    "source": "https://getdesign.md/design-md/film-ai",
+    "page": 15
+  },
+  {
+    "id": "shares-io",
+    "name": "Shares",
+    "category": "Fintech",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/shares-io",
+    "page": 15
+  },
+  {
+    "id": "dashlane",
+    "name": "Dashlane",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dashlane/thumb.webp",
+    "source": "https://getdesign.md/design-md/dashlane",
+    "page": 15
+  },
+  {
+    "id": "clipdrop",
+    "name": "ClipDrop",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/clipdrop/thumb.webp",
+    "source": "https://getdesign.md/design-md/clipdrop",
+    "page": 15
+  },
+  {
+    "id": "cortexdao",
+    "name": "CortexDAO",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cortexdao/thumb.webp",
+    "source": "https://getdesign.md/design-md/cortexdao",
+    "page": 15
+  },
+  {
+    "id": "tryeraser",
+    "name": "Eraser",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tryeraser/thumb.webp",
+    "source": "https://getdesign.md/design-md/tryeraser",
+    "page": 15
+  },
+  {
+    "id": "vana",
+    "name": "VANA",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/vana/thumb.webp",
+    "source": "https://getdesign.md/design-md/vana",
+    "page": 15
+  },
+  {
+    "id": "standards-site",
+    "name": "Standards",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/standards-site/thumb.webp",
+    "source": "https://getdesign.md/design-md/standards-site",
+    "page": 15
+  },
+  {
+    "id": "composer-trade",
+    "name": "Composer",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/composer-trade/thumb.webp",
+    "source": "https://getdesign.md/design-md/composer-trade",
+    "page": 15
+  },
+  {
+    "id": "shortverse",
+    "name": "Shortverse",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/shortverse/thumb.webp",
+    "source": "https://getdesign.md/design-md/shortverse",
+    "page": 16
+  },
+  {
+    "id": "figura-digital",
+    "name": "Figura",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/figura-digital/thumb.webp",
+    "source": "https://getdesign.md/design-md/figura-digital",
+    "page": 16
+  },
+  {
+    "id": "tracky",
+    "name": "Tracky",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tracky/thumb.webp",
+    "source": "https://getdesign.md/design-md/tracky",
+    "page": 16
+  },
+  {
+    "id": "getcoco",
+    "name": "Coco",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/getcoco/thumb.webp",
+    "source": "https://getdesign.md/design-md/getcoco",
+    "page": 16
+  },
+  {
+    "id": "lazy-so",
+    "name": "Lazy",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/lazy-so/thumb.webp",
+    "source": "https://getdesign.md/design-md/lazy-so",
+    "page": 16
+  },
+  {
+    "id": "prevalent-ai",
+    "name": "PrevalentAI",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/prevalent-ai/thumb.webp",
+    "source": "https://getdesign.md/design-md/prevalent-ai",
+    "page": 16
+  },
+  {
+    "id": "huddle-works",
+    "name": "Huddle",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/huddle-works/thumb.webp",
+    "source": "https://getdesign.md/design-md/huddle-works",
+    "page": 16
+  },
+  {
+    "id": "usestir",
+    "name": "Stir",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/usestir/thumb.webp",
+    "source": "https://getdesign.md/design-md/usestir",
+    "page": 16
+  },
+  {
+    "id": "ready-so",
+    "name": "Ready",
+    "category": "Productivity & SaaS",
+    "thumbnail": null,
+    "source": "https://getdesign.md/design-md/ready-so",
+    "page": 16
+  },
+  {
+    "id": "decipad",
+    "name": "Decipad",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/decipad/thumb.webp",
+    "source": "https://getdesign.md/design-md/decipad",
+    "page": 16
+  },
+  {
+    "id": "capital-xyz",
+    "name": "Capital",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/capital-xyz/thumb.webp",
+    "source": "https://getdesign.md/design-md/capital-xyz",
+    "page": 16
+  },
+  {
+    "id": "glitch",
+    "name": "Glitch",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/glitch/thumb.webp",
+    "source": "https://getdesign.md/design-md/glitch",
+    "page": 16
+  },
+  {
+    "id": "starlight-money",
+    "name": "Starlight",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/starlight-money/thumb.webp",
+    "source": "https://getdesign.md/design-md/starlight-money",
+    "page": 16
+  },
+  {
+    "id": "boostinsurance",
+    "name": "Boost Insurance",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/boostinsurance/thumb.webp",
+    "source": "https://getdesign.md/design-md/boostinsurance",
+    "page": 16
+  },
+  {
+    "id": "eclipse",
+    "name": "Eclipse",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/eclipse/thumb.webp",
+    "source": "https://getdesign.md/design-md/eclipse",
+    "page": 16
+  },
+  {
+    "id": "planetscale",
+    "name": "PlanetScale",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/planetscale/thumb.webp",
+    "source": "https://getdesign.md/design-md/planetscale",
+    "page": 16
+  },
+  {
+    "id": "mode",
+    "name": "Mode",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mode/thumb.webp",
+    "source": "https://getdesign.md/design-md/mode",
+    "page": 17
+  },
+  {
+    "id": "mural",
+    "name": "Mural",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mural/thumb.webp",
+    "source": "https://getdesign.md/design-md/mural",
+    "page": 17
+  },
+  {
+    "id": "fiberplane",
+    "name": "Fiberplane",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/fiberplane/thumb.webp",
+    "source": "https://getdesign.md/design-md/fiberplane",
+    "page": 17
+  },
+  {
+    "id": "replay",
+    "name": "Replay",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/replay/thumb.webp",
+    "source": "https://getdesign.md/design-md/replay",
+    "page": 17
+  },
+  {
+    "id": "galileo-ft",
+    "name": "Galileo",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/galileo-ft/thumb.webp",
+    "source": "https://getdesign.md/design-md/galileo-ft",
+    "page": 17
+  },
+  {
+    "id": "shareup",
+    "name": "shareup.app",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/shareup/thumb.webp",
+    "source": "https://getdesign.md/design-md/shareup",
+    "page": 17
+  },
+  {
+    "id": "skiff",
+    "name": "Skiff",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/skiff/thumb.webp",
+    "source": "https://getdesign.md/design-md/skiff",
+    "page": 17
+  },
+  {
+    "id": "fold-money",
+    "name": "Fold",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/fold-money/thumb.webp",
+    "source": "https://getdesign.md/design-md/fold-money",
+    "page": 17
+  },
+  {
+    "id": "ortto",
+    "name": "Ortto",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/ortto/thumb.webp",
+    "source": "https://getdesign.md/design-md/ortto",
+    "page": 17
+  },
+  {
+    "id": "evergreen",
+    "name": "Evergreen",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/evergreen/thumb.webp",
+    "source": "https://getdesign.md/design-md/evergreen",
+    "page": 17
+  },
+  {
+    "id": "metaview",
+    "name": "Metaview",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/metaview/thumb.webp",
+    "source": "https://getdesign.md/design-md/metaview",
+    "page": 17
+  },
+  {
+    "id": "bento",
+    "name": "Bento",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/bento/thumb.webp",
+    "source": "https://getdesign.md/design-md/bento",
+    "page": 17
+  },
+  {
+    "id": "usedrop",
+    "name": "Drop",
+    "category": "E-commerce",
+    "thumbnail": "https://cdn.getdesign.md/catalog/usedrop/thumb.webp",
+    "source": "https://getdesign.md/design-md/usedrop",
+    "page": 17
+  },
+  {
+    "id": "superthread",
+    "name": "Superthread",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/superthread/thumb.webp",
+    "source": "https://getdesign.md/design-md/superthread",
+    "page": 17
+  },
+  {
+    "id": "cord",
+    "name": "Cord",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cord/thumb.webp",
+    "source": "https://getdesign.md/design-md/cord",
+    "page": 17
+  },
+  {
+    "id": "cycle",
+    "name": "Cycle",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cycle/thumb.webp",
+    "source": "https://getdesign.md/design-md/cycle",
+    "page": 17
+  },
+  {
+    "id": "mixpanel",
+    "name": "Mixpanel",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mixpanel/thumb.webp",
+    "source": "https://getdesign.md/design-md/mixpanel",
+    "page": 18
+  },
+  {
+    "id": "shortcut",
+    "name": "Shortcut",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/shortcut/thumb.webp",
+    "source": "https://getdesign.md/design-md/shortcut",
+    "page": 18
+  },
+  {
+    "id": "mezmo",
+    "name": "Mezmo",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mezmo/thumb.webp",
+    "source": "https://getdesign.md/design-md/mezmo",
+    "page": 18
+  },
+  {
+    "id": "swagapp",
+    "name": "Swag",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/swagapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/swagapp",
+    "page": 18
+  },
+  {
+    "id": "inthememory",
+    "name": "In The Memory",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/inthememory/thumb.webp",
+    "source": "https://getdesign.md/design-md/inthememory",
+    "page": 18
+  },
+  {
+    "id": "mymind",
+    "name": "mymind",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mymind/thumb.webp",
+    "source": "https://getdesign.md/design-md/mymind",
+    "page": 18
+  },
+  {
+    "id": "syllabus",
+    "name": "Syllabus",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/syllabus/thumb.webp",
+    "source": "https://getdesign.md/design-md/syllabus",
+    "page": 18
+  },
+  {
+    "id": "glideapps",
+    "name": "Glide",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/glideapps/thumb.webp",
+    "source": "https://getdesign.md/design-md/glideapps",
+    "page": 18
+  },
+  {
+    "id": "obviously",
+    "name": "Obviously AI",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/obviously/thumb.webp",
+    "source": "https://getdesign.md/design-md/obviously",
+    "page": 18
+  },
+  {
+    "id": "maneken",
+    "name": "Maneken",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/maneken/thumb.webp",
+    "source": "https://getdesign.md/design-md/maneken",
+    "page": 18
+  },
+  {
+    "id": "reflect",
+    "name": "Reflect",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/reflect/thumb.webp",
+    "source": "https://getdesign.md/design-md/reflect",
+    "page": 18
+  },
+  {
+    "id": "loops",
+    "name": "Loops",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/loops/thumb.webp",
+    "source": "https://getdesign.md/design-md/loops",
+    "page": 18
+  },
+  {
+    "id": "diagram",
+    "name": "Diagram",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/diagram/thumb.webp",
+    "source": "https://getdesign.md/design-md/diagram",
+    "page": 18
+  },
+  {
+    "id": "current",
+    "name": "Current",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/current/thumb.webp",
+    "source": "https://getdesign.md/design-md/current",
+    "page": 18
+  },
+  {
+    "id": "twingate",
+    "name": "Twingate",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/twingate/thumb.webp",
+    "source": "https://getdesign.md/design-md/twingate",
+    "page": 18
+  },
+  {
+    "id": "tiblo",
+    "name": "tiblo",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tiblo/thumb.webp",
+    "source": "https://getdesign.md/design-md/tiblo",
+    "page": 18
+  },
+  {
+    "id": "checklyhq",
+    "name": "Checkly",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/checklyhq/thumb.webp",
+    "source": "https://getdesign.md/design-md/checklyhq",
+    "page": 19
+  },
+  {
+    "id": "hook-xyz",
+    "name": "Hook",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/hook-xyz/thumb.webp",
+    "source": "https://getdesign.md/design-md/hook-xyz",
+    "page": 19
+  },
+  {
+    "id": "hyperliquid",
+    "name": "Hyperliquid",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/hyperliquid/thumb.webp",
+    "source": "https://getdesign.md/design-md/hyperliquid",
+    "page": 19
+  },
+  {
+    "id": "timescale",
+    "name": "Timescale",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/timescale/thumb.webp",
+    "source": "https://getdesign.md/design-md/timescale",
+    "page": 19
+  },
+  {
+    "id": "magicbeans",
+    "name": "Magic Beans",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/magicbeans/thumb.webp",
+    "source": "https://getdesign.md/design-md/magicbeans",
+    "page": 19
+  },
+  {
+    "id": "clearbit",
+    "name": "Clearbit",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/clearbit/thumb.webp",
+    "source": "https://getdesign.md/design-md/clearbit",
+    "page": 19
+  },
+  {
+    "id": "near",
+    "name": "NEAR",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/near/thumb.webp",
+    "source": "https://getdesign.md/design-md/near",
+    "page": 19
+  },
+  {
+    "id": "goodnotes",
+    "name": "Goodnotes",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/goodnotes/thumb.webp",
+    "source": "https://getdesign.md/design-md/goodnotes",
+    "page": 19
+  },
+  {
+    "id": "oysterhr",
+    "name": "Oyster",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/oysterhr/thumb.webp",
+    "source": "https://getdesign.md/design-md/oysterhr",
+    "page": 19
+  },
+  {
+    "id": "chroniclehq",
+    "name": "Chronicle",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/chroniclehq/thumb.webp",
+    "source": "https://getdesign.md/design-md/chroniclehq",
+    "page": 19
+  },
+  {
+    "id": "lottielab",
+    "name": "Lottielab",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/lottielab/thumb.webp",
+    "source": "https://getdesign.md/design-md/lottielab",
+    "page": 19
+  },
+  {
+    "id": "supertape",
+    "name": "Supertape",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/supertape/thumb.webp",
+    "source": "https://getdesign.md/design-md/supertape",
+    "page": 19
+  },
+  {
+    "id": "monad",
+    "name": "Monad",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/monad/thumb.webp",
+    "source": "https://getdesign.md/design-md/monad",
+    "page": 19
+  },
+  {
+    "id": "deta-space",
+    "name": "Deta Space",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/deta-space/thumb.webp",
+    "source": "https://getdesign.md/design-md/deta-space",
+    "page": 19
+  },
+  {
+    "id": "fable",
+    "name": "Fable",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/fable/thumb.webp",
+    "source": "https://getdesign.md/design-md/fable",
+    "page": 19
+  },
+  {
+    "id": "makelog",
+    "name": "Makelog",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/makelog/thumb.webp",
+    "source": "https://getdesign.md/design-md/makelog",
+    "page": 19
+  },
+  {
+    "id": "getcontrast",
+    "name": "Contrast",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/getcontrast/thumb.webp",
+    "source": "https://getdesign.md/design-md/getcontrast",
+    "page": 20
+  },
+  {
+    "id": "luroapp",
+    "name": "Luro",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/luroapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/luroapp",
+    "page": 20
+  },
+  {
+    "id": "prismic",
+    "name": "Prismic",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/prismic/thumb.webp",
+    "source": "https://getdesign.md/design-md/prismic",
+    "page": 20
+  },
+  {
+    "id": "risecalendar",
+    "name": "Rise",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/risecalendar/thumb.webp",
+    "source": "https://getdesign.md/design-md/risecalendar",
+    "page": 20
+  },
+  {
+    "id": "astro-build",
+    "name": "Astro",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/astro-build/thumb.webp",
+    "source": "https://getdesign.md/design-md/astro-build",
+    "page": 20
+  },
+  {
+    "id": "stableaudio",
+    "name": "Stable Audio",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/stableaudio/thumb.webp",
+    "source": "https://getdesign.md/design-md/stableaudio",
+    "page": 20
+  },
+  {
+    "id": "ventriloc",
+    "name": "ventriloc",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/ventriloc/thumb.webp",
+    "source": "https://getdesign.md/design-md/ventriloc",
+    "page": 20
+  },
+  {
+    "id": "tally",
+    "name": "Tally",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tally/thumb.webp",
+    "source": "https://getdesign.md/design-md/tally",
+    "page": 20
+  },
+  {
+    "id": "tome",
+    "name": "Tome",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tome/thumb.webp",
+    "source": "https://getdesign.md/design-md/tome",
+    "page": 20
+  },
+  {
+    "id": "gitness",
+    "name": "Gitness",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/gitness/thumb.webp",
+    "source": "https://getdesign.md/design-md/gitness",
+    "page": 20
+  },
+  {
+    "id": "trunk",
+    "name": "Trunk",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/trunk/thumb.webp",
+    "source": "https://getdesign.md/design-md/trunk",
+    "page": 20
+  },
+  {
+    "id": "tines",
+    "name": "Tines",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tines/thumb.webp",
+    "source": "https://getdesign.md/design-md/tines",
+    "page": 20
+  },
+  {
+    "id": "clay-earth",
+    "name": "Clay",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/clay-earth/thumb.webp",
+    "source": "https://getdesign.md/design-md/clay-earth",
+    "page": 20
+  },
+  {
+    "id": "hydra",
+    "name": "Hydra",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/hydra/thumb.webp",
+    "source": "https://getdesign.md/design-md/hydra",
+    "page": 20
+  },
+  {
+    "id": "outerbase",
+    "name": "Outerbase",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/outerbase/thumb.webp",
+    "source": "https://getdesign.md/design-md/outerbase",
+    "page": 20
+  },
+  {
+    "id": "kikin",
+    "name": "Kikin",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/kikin/thumb.webp",
+    "source": "https://getdesign.md/design-md/kikin",
+    "page": 20
+  },
+  {
+    "id": "mmm-page",
+    "name": "mmm.page",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mmm-page/thumb.webp",
+    "source": "https://getdesign.md/design-md/mmm-page",
+    "page": 21
+  },
+  {
+    "id": "steep",
+    "name": "Steep",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/steep/thumb.webp",
+    "source": "https://getdesign.md/design-md/steep",
+    "page": 21
+  },
+  {
+    "id": "resend-forward",
+    "name": "Resend Forward",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/resend-forward/thumb.webp",
+    "source": "https://getdesign.md/design-md/resend-forward",
+    "page": 21
+  },
+  {
+    "id": "save-day",
+    "name": "SaveDay",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/save-day/thumb.webp",
+    "source": "https://getdesign.md/design-md/save-day",
+    "page": 21
+  },
+  {
+    "id": "multiparty",
+    "name": "Multiparty",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/multiparty/thumb.webp",
+    "source": "https://getdesign.md/design-md/multiparty",
+    "page": 21
+  },
+  {
+    "id": "scenery",
+    "name": "Scenery",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/scenery/thumb.webp",
+    "source": "https://getdesign.md/design-md/scenery",
+    "page": 21
+  },
+  {
+    "id": "suno",
+    "name": "Suno AI",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/suno/thumb.webp",
+    "source": "https://getdesign.md/design-md/suno",
+    "page": 21
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/synthesia/thumb.webp",
+    "source": "https://getdesign.md/design-md/synthesia",
+    "page": 21
+  },
+  {
+    "id": "whimsical",
+    "name": "Whimsical",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/whimsical/thumb.webp",
+    "source": "https://getdesign.md/design-md/whimsical",
+    "page": 21
+  },
+  {
+    "id": "dimension",
+    "name": "Dimension",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dimension/thumb.webp",
+    "source": "https://getdesign.md/design-md/dimension",
+    "page": 21
+  },
+  {
+    "id": "graphy",
+    "name": "Graphy",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/graphy/thumb.webp",
+    "source": "https://getdesign.md/design-md/graphy",
+    "page": 21
+  },
+  {
+    "id": "basehub",
+    "name": "BaseHub",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/basehub/thumb.webp",
+    "source": "https://getdesign.md/design-md/basehub",
+    "page": 21
+  },
+  {
+    "id": "jam-dev",
+    "name": "Jam",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/jam-dev/thumb.webp",
+    "source": "https://getdesign.md/design-md/jam-dev",
+    "page": 21
+  },
+  {
+    "id": "common",
+    "name": "Common",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/common/thumb.webp",
+    "source": "https://getdesign.md/design-md/common",
+    "page": 21
+  },
+  {
+    "id": "specifyapp",
+    "name": "Specify",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/specifyapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/specifyapp",
+    "page": 21
+  },
+  {
+    "id": "reef",
+    "name": "Reef",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/reef/thumb.webp",
+    "source": "https://getdesign.md/design-md/reef",
+    "page": 21
+  },
+  {
+    "id": "cosmos",
+    "name": "Cosmos",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cosmos/thumb.jpg",
+    "source": "https://getdesign.md/design-md/cosmos",
+    "page": 22
+  },
+  {
+    "id": "alex",
+    "name": "Alex",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/alex/thumb.jpg",
+    "source": "https://getdesign.md/design-md/alex",
+    "page": 22
+  },
+  {
+    "id": "polar",
+    "name": "Polar",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/polar/thumb.jpg",
+    "source": "https://getdesign.md/design-md/polar",
+    "page": 22
+  },
+  {
+    "id": "superr",
+    "name": "Superr",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/superr/thumb.jpg",
+    "source": "https://getdesign.md/design-md/superr",
+    "page": 22
+  },
+  {
+    "id": "steno",
+    "name": "Steno",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/steno/thumb.jpg",
+    "source": "https://getdesign.md/design-md/steno",
+    "page": 22
+  },
+  {
+    "id": "cantor8",
+    "name": "Cantor8",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cantor8/thumb.jpg",
+    "source": "https://getdesign.md/design-md/cantor8",
+    "page": 22
+  },
+  {
+    "id": "nuraform",
+    "name": "Nuraform",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/nuraform/thumb.jpg",
+    "source": "https://getdesign.md/design-md/nuraform",
+    "page": 22
+  },
+  {
+    "id": "luffu",
+    "name": "Luffu",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/luffu/thumb.jpg",
+    "source": "https://getdesign.md/design-md/luffu",
+    "page": 22
+  },
+  {
+    "id": "tokens",
+    "name": "Tokens",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tokens/thumb.jpg",
+    "source": "https://getdesign.md/design-md/tokens",
+    "page": 22
+  },
+  {
+    "id": "readily",
+    "name": "Readily",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/readily/thumb.jpg",
+    "source": "https://getdesign.md/design-md/readily",
+    "page": 22
+  },
+  {
+    "id": "greptile",
+    "name": "Greptile",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/greptile/thumb.jpg?v=20260827",
+    "source": "https://getdesign.md/design-md/greptile",
+    "page": 22
+  },
+  {
+    "id": "detach-app",
+    "name": "Detach",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/detach-app/thumb.jpg",
+    "source": "https://getdesign.md/design-md/detach-app",
+    "page": 22
+  },
+  {
+    "id": "perplexity-comet",
+    "name": "Perplexity Comet",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/perplexity-comet/thumb.jpg?v=20260827",
+    "source": "https://getdesign.md/design-md/perplexity-comet",
+    "page": 22
+  },
+  {
+    "id": "diabrowser",
+    "name": "Dia Browser",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/diabrowser/thumb.jpg",
+    "source": "https://getdesign.md/design-md/diabrowser",
+    "page": 22
+  },
+  {
+    "id": "cobot",
+    "name": "Cobot",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cobot/thumb.jpg",
+    "source": "https://getdesign.md/design-md/cobot",
+    "page": 22
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/sunflower/thumb.jpg?v=20260827",
+    "source": "https://getdesign.md/design-md/sunflower",
+    "page": 22
+  },
+  {
+    "id": "generalintelligencecompany",
+    "name": "The General Intelligence Company",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/generalintelligencecompany/thumb.jpg",
+    "source": "https://getdesign.md/design-md/generalintelligencecompany",
+    "page": 23
+  },
+  {
+    "id": "cofounder",
+    "name": "Cofounder",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cofounder/thumb.jpg",
+    "source": "https://getdesign.md/design-md/cofounder",
+    "page": 23
+  },
+  {
+    "id": "interludeapp",
+    "name": "Interlude",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/interludeapp/thumb.jpg",
+    "source": "https://getdesign.md/design-md/interludeapp",
+    "page": 23
+  },
+  {
+    "id": "yunastories",
+    "name": "Yuna",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/yunastories/thumb.webp",
+    "source": "https://getdesign.md/design-md/yunastories",
+    "page": 23
+  },
+  {
+    "id": "wand",
+    "name": "Wand",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/wand/thumb.jpg",
+    "source": "https://getdesign.md/design-md/wand",
+    "page": 23
+  },
+  {
+    "id": "thetinypod",
+    "name": "tinyPod",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/thetinypod/thumb.webp",
+    "source": "https://getdesign.md/design-md/thetinypod",
+    "page": 23
+  },
+  {
+    "id": "shotwithkino",
+    "name": "Kino",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/shotwithkino/thumb.jpg",
+    "source": "https://getdesign.md/design-md/shotwithkino",
+    "page": 23
+  },
+  {
+    "id": "okaydev",
+    "name": "Okay Dev",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/okaydev/thumb.webp",
+    "source": "https://getdesign.md/design-md/okaydev",
+    "page": 23
+  },
+  {
+    "id": "motiapp",
+    "name": "Moti",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/motiapp/thumb.jpg",
+    "source": "https://getdesign.md/design-md/motiapp",
+    "page": 23
+  },
+  {
+    "id": "midlife-engineering",
+    "name": "Midlife Engineering",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/midlife-engineering/thumb.jpg",
+    "source": "https://getdesign.md/design-md/midlife-engineering",
+    "page": 23
+  },
+  {
+    "id": "lumalabs",
+    "name": "Luma AI",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/lumalabs/thumb.jpg",
+    "source": "https://getdesign.md/design-md/lumalabs",
+    "page": 23
+  },
+  {
+    "id": "joi",
+    "name": "Joi Planner",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/joi/thumb.jpg",
+    "source": "https://getdesign.md/design-md/joi",
+    "page": 23
+  },
+  {
+    "id": "humane",
+    "name": "Humane Ai Pin",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/humane/thumb.jpg",
+    "source": "https://getdesign.md/design-md/humane",
+    "page": 23
+  },
+  {
+    "id": "getfreewrite",
+    "name": "Freewrite Valentine",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/getfreewrite/thumb.jpg",
+    "source": "https://getdesign.md/design-md/getfreewrite",
+    "page": 23
+  },
+  {
+    "id": "fasset",
+    "name": "Fasset",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/fasset/thumb.webp",
+    "source": "https://getdesign.md/design-md/fasset",
+    "page": 23
+  },
+  {
+    "id": "dailybranding",
+    "name": "Daily Branding",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dailybranding/thumb.webp",
+    "source": "https://getdesign.md/design-md/dailybranding",
+    "page": 23
+  },
+  {
+    "id": "cred",
+    "name": "CRED money",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cred/thumb.webp",
+    "source": "https://getdesign.md/design-md/cred",
+    "page": 24
+  },
+  {
+    "id": "contra",
+    "name": "Contra",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/contra/thumb.webp",
+    "source": "https://getdesign.md/design-md/contra",
+    "page": 24
+  },
+  {
+    "id": "campsite",
+    "name": "Campsite",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/campsite/thumb.webp",
+    "source": "https://getdesign.md/design-md/campsite",
+    "page": 24
+  },
+  {
+    "id": "busy-bar",
+    "name": "Busy Status Bar",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/busy-bar/thumb.webp",
+    "source": "https://getdesign.md/design-md/busy-bar",
+    "page": 24
+  },
+  {
+    "id": "blok",
+    "name": "Blok",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/blok/thumb.webp",
+    "source": "https://getdesign.md/design-md/blok",
+    "page": 24
+  },
+  {
+    "id": "workshopsurvival",
+    "name": "The Workshop Survival Guide",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/workshopsurvival/thumb.webp",
+    "source": "https://getdesign.md/design-md/workshopsurvival",
+    "page": 24
+  },
+  {
+    "id": "withswitchboard",
+    "name": "Switchboard",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/withswitchboard/thumb.webp",
+    "source": "https://getdesign.md/design-md/withswitchboard",
+    "page": 24
+  },
+  {
+    "id": "webflail",
+    "name": "Webflail",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/webflail/thumb.webp",
+    "source": "https://getdesign.md/design-md/webflail",
+    "page": 24
+  },
+  {
+    "id": "userinterviews",
+    "name": "User Interviews",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/userinterviews/thumb.webp",
+    "source": "https://getdesign.md/design-md/userinterviews",
+    "page": 24
+  },
+  {
+    "id": "usekernel",
+    "name": "Kernel",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/usekernel/thumb.webp",
+    "source": "https://getdesign.md/design-md/usekernel",
+    "page": 24
+  },
+  {
+    "id": "tripsuite",
+    "name": "TripSuite",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/tripsuite/thumb.webp",
+    "source": "https://getdesign.md/design-md/tripsuite",
+    "page": 24
+  },
+  {
+    "id": "thesubtext",
+    "name": "The Subtext",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/thesubtext/thumb.webp",
+    "source": "https://getdesign.md/design-md/thesubtext",
+    "page": 24
+  },
+  {
+    "id": "supportninja",
+    "name": "SupportNinja",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/supportninja/thumb.webp",
+    "source": "https://getdesign.md/design-md/supportninja",
+    "page": 24
+  },
+  {
+    "id": "superhi",
+    "name": "SuperHi",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/superhi/thumb.webp",
+    "source": "https://getdesign.md/design-md/superhi",
+    "page": 24
+  },
+  {
+    "id": "sipapp",
+    "name": "Sip",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/sipapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/sipapp",
+    "page": 24
+  },
+  {
+    "id": "roastdesign",
+    "name": "Roast Plugin",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/roastdesign/thumb.webp",
+    "source": "https://getdesign.md/design-md/roastdesign",
+    "page": 24
+  },
+  {
+    "id": "rewind",
+    "name": "Rewind",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/rewind/thumb.webp",
+    "source": "https://getdesign.md/design-md/rewind",
+    "page": 25
+  },
+  {
+    "id": "relume",
+    "name": "Relume",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/relume/thumb.webp",
+    "source": "https://getdesign.md/design-md/relume",
+    "page": 25
+  },
+  {
+    "id": "polywork",
+    "name": "Polywork",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/polywork/thumb.webp",
+    "source": "https://getdesign.md/design-md/polywork",
+    "page": 25
+  },
+  {
+    "id": "myterra",
+    "name": "TERRA",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/myterra/thumb.webp",
+    "source": "https://getdesign.md/design-md/myterra",
+    "page": 25
+  },
+  {
+    "id": "multi",
+    "name": "Multi",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/multi/thumb.webp",
+    "source": "https://getdesign.md/design-md/multi",
+    "page": 25
+  },
+  {
+    "id": "mobbin",
+    "name": "Mobbin",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mobbin/thumb.webp",
+    "source": "https://getdesign.md/design-md/mobbin",
+    "page": 25
+  },
+  {
+    "id": "mimo",
+    "name": "Mimo",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mimo/thumb.webp",
+    "source": "https://getdesign.md/design-md/mimo",
+    "page": 25
+  },
+  {
+    "id": "midnight",
+    "name": "Midnight Alarm",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/midnight/thumb.webp",
+    "source": "https://getdesign.md/design-md/midnight",
+    "page": 25
+  },
+  {
+    "id": "loversmagazine",
+    "name": "Lovers Magazine",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/loversmagazine/thumb.webp",
+    "source": "https://getdesign.md/design-md/loversmagazine",
+    "page": 25
+  },
+  {
+    "id": "localcan",
+    "name": "LocalCan",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/localcan/thumb.webp",
+    "source": "https://getdesign.md/design-md/localcan",
+    "page": 25
+  },
+  {
+    "id": "lex",
+    "name": "Lex",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/lex/thumb.webp",
+    "source": "https://getdesign.md/design-md/lex",
+    "page": 25
+  },
+  {
+    "id": "learntype",
+    "name": "Blaze Type",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/learntype/thumb.webp",
+    "source": "https://getdesign.md/design-md/learntype",
+    "page": 25
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/ghost/thumb.webp",
+    "source": "https://getdesign.md/design-md/ghost",
+    "page": 25
+  },
+  {
+    "id": "frame-so",
+    "name": "Frame",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/frame-so/thumb.webp",
+    "source": "https://getdesign.md/design-md/frame-so",
+    "page": 25
+  },
+  {
+    "id": "figarc",
+    "name": "Figarc",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/figarc/thumb.webp",
+    "source": "https://getdesign.md/design-md/figarc",
+    "page": 25
+  },
+  {
+    "id": "fabrictoken",
+    "name": "Fabric Token",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/fabrictoken/thumb.webp",
+    "source": "https://getdesign.md/design-md/fabrictoken",
+    "page": 25
+  },
+  {
+    "id": "elegantseagulls",
+    "name": "The Sauce by Elegant Seagulls",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/elegantseagulls/thumb.webp",
+    "source": "https://getdesign.md/design-md/elegantseagulls",
+    "page": 26
+  },
+  {
+    "id": "dydx-academy",
+    "name": "dYdX Academy",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dydx-academy/thumb.webp",
+    "source": "https://getdesign.md/design-md/dydx-academy",
+    "page": 26
+  },
+  {
+    "id": "duck-school",
+    "name": "Duck English",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/duck-school/thumb.webp",
+    "source": "https://getdesign.md/design-md/duck-school",
+    "page": 26
+  },
+  {
+    "id": "dribbble",
+    "name": "Dribbble",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dribbble/thumb.webp",
+    "source": "https://getdesign.md/design-md/dribbble",
+    "page": 26
+  },
+  {
+    "id": "dovetail",
+    "name": "Dovetail",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dovetail/thumb.webp",
+    "source": "https://getdesign.md/design-md/dovetail",
+    "page": 26
+  },
+  {
+    "id": "daylightcomputer",
+    "name": "Daylight Computer",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/daylightcomputer/thumb.webp",
+    "source": "https://getdesign.md/design-md/daylightcomputer",
+    "page": 26
+  },
+  {
+    "id": "createwithplay",
+    "name": "Play",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/createwithplay/thumb.webp",
+    "source": "https://getdesign.md/design-md/createwithplay",
+    "page": 26
+  },
+  {
+    "id": "clerk",
+    "name": "Clerk",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/clerk/thumb.webp",
+    "source": "https://getdesign.md/design-md/clerk",
+    "page": 26
+  },
+  {
+    "id": "cardinalapp",
+    "name": "Cardinal",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cardinalapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/cardinalapp",
+    "page": 26
+  },
+  {
+    "id": "basecamp",
+    "name": "Basecamp",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/basecamp/thumb.webp",
+    "source": "https://getdesign.md/design-md/basecamp",
+    "page": 26
+  },
+  {
+    "id": "atoms-app",
+    "name": "Atoms",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/atoms-app/thumb.webp",
+    "source": "https://getdesign.md/design-md/atoms-app",
+    "page": 26
+  },
+  {
+    "id": "agilebydesign",
+    "name": "Agile By Design",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/agilebydesign/thumb.webp",
+    "source": "https://getdesign.md/design-md/agilebydesign",
+    "page": 26
+  },
+  {
+    "id": "10xdesigners",
+    "name": "10x Designers",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/10xdesigners/thumb.webp",
+    "source": "https://getdesign.md/design-md/10xdesigners",
+    "page": 26
+  },
+  {
+    "id": "yubo",
+    "name": "Yubo",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/yubo/thumb.webp",
+    "source": "https://getdesign.md/design-md/yubo",
+    "page": 26
+  },
+  {
+    "id": "workspaces",
+    "name": "Workspaces",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/workspaces/thumb.webp",
+    "source": "https://getdesign.md/design-md/workspaces",
+    "page": 26
+  },
+  {
+    "id": "wisr",
+    "name": "Wisr",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/wisr/thumb.webp",
+    "source": "https://getdesign.md/design-md/wisr",
+    "page": 26
+  },
+  {
+    "id": "weve",
+    "name": "WEVE",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/weve/thumb.webp",
+    "source": "https://getdesign.md/design-md/weve",
+    "page": 27
+  },
+  {
+    "id": "welcomesoftware",
+    "name": "Welcome Software",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/welcomesoftware/thumb.webp",
+    "source": "https://getdesign.md/design-md/welcomesoftware",
+    "page": 27
+  },
+  {
+    "id": "weezy",
+    "name": "Weezy",
+    "category": "E-commerce",
+    "thumbnail": "https://cdn.getdesign.md/catalog/weezy/thumb.webp",
+    "source": "https://getdesign.md/design-md/weezy",
+    "page": 27
+  },
+  {
+    "id": "weekrise",
+    "name": "Weekrise",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/weekrise/thumb.webp",
+    "source": "https://getdesign.md/design-md/weekrise",
+    "page": 27
+  },
+  {
+    "id": "watermelon",
+    "name": "Watermelon",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/watermelon/thumb.webp",
+    "source": "https://getdesign.md/design-md/watermelon",
+    "page": 27
+  },
+  {
+    "id": "upword",
+    "name": "Upword",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/upword/thumb.webp",
+    "source": "https://getdesign.md/design-md/upword",
+    "page": 27
+  },
+  {
+    "id": "uno-app",
+    "name": "Uno",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/uno-app/thumb.webp",
+    "source": "https://getdesign.md/design-md/uno-app",
+    "page": 27
+  },
+  {
+    "id": "unloan",
+    "name": "Unloan",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/unloan/thumb.webp",
+    "source": "https://getdesign.md/design-md/unloan",
+    "page": 27
+  },
+  {
+    "id": "unflow",
+    "name": "Unflow",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/unflow/thumb.webp",
+    "source": "https://getdesign.md/design-md/unflow",
+    "page": 27
+  },
+  {
+    "id": "typedream",
+    "name": "Typedream",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/typedream/thumb.webp",
+    "source": "https://getdesign.md/design-md/typedream",
+    "page": 27
+  },
+  {
+    "id": "the-brandidentity",
+    "name": "The Brand Identity",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/the-brandidentity/thumb.webp",
+    "source": "https://getdesign.md/design-md/the-brandidentity",
+    "page": 27
+  },
+  {
+    "id": "streamclub",
+    "name": "Stream Club",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/streamclub/thumb.webp",
+    "source": "https://getdesign.md/design-md/streamclub",
+    "page": 27
+  },
+  {
+    "id": "stellar",
+    "name": "Stellar",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/stellar/thumb.webp",
+    "source": "https://getdesign.md/design-md/stellar",
+    "page": 27
+  },
+  {
+    "id": "stage-so",
+    "name": "Stage",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/stage-so/thumb.webp",
+    "source": "https://getdesign.md/design-md/stage-so",
+    "page": 27
+  },
+  {
+    "id": "stackerhq",
+    "name": "Stacker",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/stackerhq/thumb.webp",
+    "source": "https://getdesign.md/design-md/stackerhq",
+    "page": 27
+  },
+  {
+    "id": "sleepmydarling",
+    "name": "Sleep My Darling",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/sleepmydarling/thumb.webp",
+    "source": "https://getdesign.md/design-md/sleepmydarling",
+    "page": 27
+  },
+  {
+    "id": "signature365",
+    "name": "Signature 365",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/signature365/thumb.webp",
+    "source": "https://getdesign.md/design-md/signature365",
+    "page": 28
+  },
+  {
+    "id": "short",
+    "name": "Short.io",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/short/thumb.webp",
+    "source": "https://getdesign.md/design-md/short",
+    "page": 28
+  },
+  {
+    "id": "secondwavedive",
+    "name": "Second Wave Dive",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/secondwavedive/thumb.webp",
+    "source": "https://getdesign.md/design-md/secondwavedive",
+    "page": 28
+  },
+  {
+    "id": "reveal",
+    "name": "Reveal",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/reveal/thumb.webp",
+    "source": "https://getdesign.md/design-md/reveal",
+    "page": 28
+  },
+  {
+    "id": "renote",
+    "name": "Renote",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/renote/thumb.webp",
+    "source": "https://getdesign.md/design-md/renote",
+    "page": 28
+  },
+  {
+    "id": "remind",
+    "name": "Remind",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/remind/thumb.webp",
+    "source": "https://getdesign.md/design-md/remind",
+    "page": 28
+  },
+  {
+    "id": "reclaimai",
+    "name": "Reclaim",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/reclaimai/thumb.webp",
+    "source": "https://getdesign.md/design-md/reclaimai",
+    "page": 28
+  },
+  {
+    "id": "read-cv",
+    "name": "read.cv",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/read-cv/thumb.webp",
+    "source": "https://getdesign.md/design-md/read-cv",
+    "page": 28
+  },
+  {
+    "id": "railway",
+    "name": "Railway",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/railway/thumb.webp",
+    "source": "https://getdesign.md/design-md/railway",
+    "page": 28
+  },
+  {
+    "id": "proxy",
+    "name": "Proxy",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/proxy/thumb.webp",
+    "source": "https://getdesign.md/design-md/proxy",
+    "page": 28
+  },
+  {
+    "id": "proto",
+    "name": "Proto.io",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/proto/thumb.webp",
+    "source": "https://getdesign.md/design-md/proto",
+    "page": 28
+  },
+  {
+    "id": "programa",
+    "name": "Programa",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/programa/thumb.webp",
+    "source": "https://getdesign.md/design-md/programa",
+    "page": 28
+  },
+  {
+    "id": "prettydamnquick",
+    "name": "PrettyDamnQuick",
+    "category": "E-commerce",
+    "thumbnail": "https://cdn.getdesign.md/catalog/prettydamnquick/thumb.webp",
+    "source": "https://getdesign.md/design-md/prettydamnquick",
+    "page": 28
+  },
+  {
+    "id": "play-space",
+    "name": "Playspace",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/play-space/thumb.webp",
+    "source": "https://getdesign.md/design-md/play-space",
+    "page": 28
+  },
+  {
+    "id": "pilot-com",
+    "name": "Pilot",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/pilot-com/thumb.webp",
+    "source": "https://getdesign.md/design-md/pilot-com",
+    "page": 28
+  },
+  {
+    "id": "perimeterwatch",
+    "name": "PerimeterWatch",
+    "category": "Backend & DevOps",
+    "thumbnail": "https://cdn.getdesign.md/catalog/perimeterwatch/thumb.webp",
+    "source": "https://getdesign.md/design-md/perimeterwatch",
+    "page": 28
+  },
+  {
+    "id": "otta",
+    "name": "Otta",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/otta/thumb.webp",
+    "source": "https://getdesign.md/design-md/otta",
+    "page": 29
+  },
+  {
+    "id": "opalcamera",
+    "name": "Opal Camera",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/opalcamera/thumb.webp",
+    "source": "https://getdesign.md/design-md/opalcamera",
+    "page": 29
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/obsidian/thumb.webp",
+    "source": "https://getdesign.md/design-md/obsidian",
+    "page": 29
+  },
+  {
+    "id": "oberlo",
+    "name": "Oberlo",
+    "category": "E-commerce",
+    "thumbnail": "https://cdn.getdesign.md/catalog/oberlo/thumb.webp",
+    "source": "https://getdesign.md/design-md/oberlo",
+    "page": 29
+  },
+  {
+    "id": "nuri",
+    "name": "Nuri",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/nuri/thumb.webp",
+    "source": "https://getdesign.md/design-md/nuri",
+    "page": 29
+  },
+  {
+    "id": "nuka",
+    "name": "nuka",
+    "category": "E-commerce",
+    "thumbnail": "https://cdn.getdesign.md/catalog/nuka/thumb.webp",
+    "source": "https://getdesign.md/design-md/nuka",
+    "page": 29
+  },
+  {
+    "id": "muzli",
+    "name": "Muzli Design Inspiration",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/muzli/thumb.webp",
+    "source": "https://getdesign.md/design-md/muzli",
+    "page": 29
+  },
+  {
+    "id": "museapp",
+    "name": "Muse",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/museapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/museapp",
+    "page": 29
+  },
+  {
+    "id": "mojo-app",
+    "name": "Mojo",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mojo-app/thumb.webp",
+    "source": "https://getdesign.md/design-md/mojo-app",
+    "page": 29
+  },
+  {
+    "id": "miro-design",
+    "name": "Miro.design",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/miro-design/thumb.webp",
+    "source": "https://getdesign.md/design-md/miro-design",
+    "page": 29
+  },
+  {
+    "id": "minymon",
+    "name": "Minymon",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/minymon/thumb.webp",
+    "source": "https://getdesign.md/design-md/minymon",
+    "page": 29
+  },
+  {
+    "id": "mightyapp",
+    "name": "Mighty",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mightyapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/mightyapp",
+    "page": 29
+  },
+  {
+    "id": "meetcleo",
+    "name": "Cleo",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/meetcleo/thumb.webp",
+    "source": "https://getdesign.md/design-md/meetcleo",
+    "page": 29
+  },
+  {
+    "id": "mechanic",
+    "name": "Mechanic",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/mechanic/thumb.webp",
+    "source": "https://getdesign.md/design-md/mechanic",
+    "page": 29
+  },
+  {
+    "id": "magician-design",
+    "name": "Magician for Figma",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/magician-design/thumb.webp",
+    "source": "https://getdesign.md/design-md/magician-design",
+    "page": 29
+  },
+  {
+    "id": "madewithover",
+    "name": "Over",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/madewithover/thumb.webp",
+    "source": "https://getdesign.md/design-md/madewithover",
+    "page": 29
+  },
+  {
+    "id": "madewithknockout",
+    "name": "Knockout",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/madewithknockout/thumb.webp",
+    "source": "https://getdesign.md/design-md/madewithknockout",
+    "page": 30
+  },
+  {
+    "id": "macro",
+    "name": "Macro",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/macro/thumb.webp",
+    "source": "https://getdesign.md/design-md/macro",
+    "page": 30
+  },
+  {
+    "id": "luma",
+    "name": "Luma",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/luma/thumb.webp",
+    "source": "https://getdesign.md/design-md/luma",
+    "page": 30
+  },
+  {
+    "id": "loadmore",
+    "name": "loadmo.re",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/loadmore/thumb.webp",
+    "source": "https://getdesign.md/design-md/loadmore",
+    "page": 30
+  },
+  {
+    "id": "linktree",
+    "name": "Linktree",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/linktree/thumb.webp",
+    "source": "https://getdesign.md/design-md/linktree",
+    "page": 30
+  },
+  {
+    "id": "lilt",
+    "name": "Lilt",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/lilt/thumb.webp",
+    "source": "https://getdesign.md/design-md/lilt",
+    "page": 30
+  },
+  {
+    "id": "liist",
+    "name": "Liist",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/liist/thumb.webp",
+    "source": "https://getdesign.md/design-md/liist",
+    "page": 30
+  },
+  {
+    "id": "lemonsqueezy",
+    "name": "Lemon Squeezy",
+    "category": "E-commerce",
+    "thumbnail": "https://cdn.getdesign.md/catalog/lemonsqueezy/thumb.webp",
+    "source": "https://getdesign.md/design-md/lemonsqueezy",
+    "page": 30
+  },
+  {
+    "id": "language-work",
+    "name": "language.work",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/language-work/thumb.webp",
+    "source": "https://getdesign.md/design-md/language-work",
+    "page": 30
+  },
+  {
+    "id": "landing-love",
+    "name": "Landing Love",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/landing-love/thumb.webp",
+    "source": "https://getdesign.md/design-md/landing-love",
+    "page": 30
+  },
+  {
+    "id": "lance",
+    "name": "Lance",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/lance/thumb.webp",
+    "source": "https://getdesign.md/design-md/lance",
+    "page": 30
+  },
+  {
+    "id": "kitchen",
+    "name": "Kitchen.co",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/kitchen/thumb.webp",
+    "source": "https://getdesign.md/design-md/kitchen",
+    "page": 30
+  },
+  {
+    "id": "kiff",
+    "name": "Kiff",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/kiff/thumb.webp",
+    "source": "https://getdesign.md/design-md/kiff",
+    "page": 30
+  },
+  {
+    "id": "kelp",
+    "name": "Kelp",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/kelp/thumb.webp",
+    "source": "https://getdesign.md/design-md/kelp",
+    "page": 30
+  },
+  {
+    "id": "joinforma",
+    "name": "Forma",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/joinforma/thumb.webp",
+    "source": "https://getdesign.md/design-md/joinforma",
+    "page": 30
+  },
+  {
+    "id": "joinclubhouse",
+    "name": "Clubhouse",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/joinclubhouse/thumb.webp",
+    "source": "https://getdesign.md/design-md/joinclubhouse",
+    "page": 30
+  },
+  {
+    "id": "jam",
+    "name": "JAM!",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/jam/thumb.webp",
+    "source": "https://getdesign.md/design-md/jam",
+    "page": 31
+  },
+  {
+    "id": "invision-freehand",
+    "name": "Invision Freehand",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/invision-freehand/thumb.webp",
+    "source": "https://getdesign.md/design-md/invision-freehand",
+    "page": 31
+  },
+  {
+    "id": "inflow",
+    "name": "Inflow",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/inflow/thumb.webp",
+    "source": "https://getdesign.md/design-md/inflow",
+    "page": 31
+  },
+  {
+    "id": "impact-ideo",
+    "name": "Ten Year Impact",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/impact-ideo/thumb.webp",
+    "source": "https://getdesign.md/design-md/impact-ideo",
+    "page": 31
+  },
+  {
+    "id": "ilovecreatives",
+    "name": "ilovecreatives",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/ilovecreatives/thumb.webp",
+    "source": "https://getdesign.md/design-md/ilovecreatives",
+    "page": 31
+  },
+  {
+    "id": "hotjar",
+    "name": "Hotjar",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/hotjar/thumb.webp",
+    "source": "https://getdesign.md/design-md/hotjar",
+    "page": 31
+  },
+  {
+    "id": "hopin",
+    "name": "Hopin",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/hopin/thumb.webp",
+    "source": "https://getdesign.md/design-md/hopin",
+    "page": 31
+  },
+  {
+    "id": "groove",
+    "name": "Groove",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/groove/thumb.webp",
+    "source": "https://getdesign.md/design-md/groove",
+    "page": 31
+  },
+  {
+    "id": "gottagofast",
+    "name": "Gotta Go Fast",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/gottagofast/thumb.webp",
+    "source": "https://getdesign.md/design-md/gottagofast",
+    "page": 31
+  },
+  {
+    "id": "google-password-manager",
+    "name": "Google Password Manager",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/google-password-manager/thumb.webp",
+    "source": "https://getdesign.md/design-md/google-password-manager",
+    "page": 31
+  },
+  {
+    "id": "goaro",
+    "name": "Aro",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/goaro/thumb.webp",
+    "source": "https://getdesign.md/design-md/goaro",
+    "page": 31
+  },
+  {
+    "id": "glide",
+    "name": "Glide",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/glide/thumb.webp",
+    "source": "https://getdesign.md/design-md/glide",
+    "page": 31
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/github-copilot/thumb.webp",
+    "source": "https://getdesign.md/design-md/github-copilot",
+    "page": 31
+  },
+  {
+    "id": "getharvest",
+    "name": "Harvest",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/getharvest/thumb.webp",
+    "source": "https://getdesign.md/design-md/getharvest",
+    "page": 31
+  },
+  {
+    "id": "getdooapp",
+    "name": "Doo",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/getdooapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/getdooapp",
+    "page": 31
+  },
+  {
+    "id": "getbigmail",
+    "name": "Big Mail",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/getbigmail/thumb.webp",
+    "source": "https://getdesign.md/design-md/getbigmail",
+    "page": 31
+  },
+  {
+    "id": "gentle-guide",
+    "name": "Gentle Guide",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/gentle-guide/thumb.webp",
+    "source": "https://getdesign.md/design-md/gentle-guide",
+    "page": 32
+  },
+  {
+    "id": "gdevelop",
+    "name": "GDevelop",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/gdevelop/thumb.webp",
+    "source": "https://getdesign.md/design-md/gdevelop",
+    "page": 32
+  },
+  {
+    "id": "gather-town",
+    "name": "Gather",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/gather-town/thumb.webp",
+    "source": "https://getdesign.md/design-md/gather-town",
+    "page": 32
+  },
+  {
+    "id": "futurexs",
+    "name": "XSF",
+    "category": "E-commerce",
+    "thumbnail": "https://cdn.getdesign.md/catalog/futurexs/thumb.webp",
+    "source": "https://getdesign.md/design-md/futurexs",
+    "page": 32
+  },
+  {
+    "id": "furrynomad",
+    "name": "Furry Nomad",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/furrynomad/thumb.webp",
+    "source": "https://getdesign.md/design-md/furrynomad",
+    "page": 32
+  },
+  {
+    "id": "flowyourmoney",
+    "name": "Flow Your Money",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/flowyourmoney/thumb.webp",
+    "source": "https://getdesign.md/design-md/flowyourmoney",
+    "page": 32
+  },
+  {
+    "id": "flowmingo",
+    "name": "Flowmingo",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/flowmingo/thumb.webp",
+    "source": "https://getdesign.md/design-md/flowmingo",
+    "page": 32
+  },
+  {
+    "id": "flowfi",
+    "name": "Flow",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/flowfi/thumb.webp",
+    "source": "https://getdesign.md/design-md/flowfi",
+    "page": 32
+  },
+  {
+    "id": "flecto",
+    "name": "Flecto",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/flecto/thumb.webp",
+    "source": "https://getdesign.md/design-md/flecto",
+    "page": 32
+  },
+  {
+    "id": "fireside",
+    "name": "Fireside",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/fireside/thumb.webp",
+    "source": "https://getdesign.md/design-md/fireside",
+    "page": 32
+  },
+  {
+    "id": "explorenuu",
+    "name": "Nuu",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/explorenuu/thumb.webp",
+    "source": "https://getdesign.md/design-md/explorenuu",
+    "page": 32
+  },
+  {
+    "id": "excalidraw",
+    "name": "Excalidraw+",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/excalidraw/thumb.webp",
+    "source": "https://getdesign.md/design-md/excalidraw",
+    "page": 32
+  },
+  {
+    "id": "everafter",
+    "name": "EverAfter",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/everafter/thumb.webp",
+    "source": "https://getdesign.md/design-md/everafter",
+    "page": 32
+  },
+  {
+    "id": "dovetailapp",
+    "name": "Dovetail",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dovetailapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/dovetailapp",
+    "page": 32
+  },
+  {
+    "id": "dona",
+    "name": "Dona",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dona/thumb.webp",
+    "source": "https://getdesign.md/design-md/dona",
+    "page": 32
+  },
+  {
+    "id": "doc-cc",
+    "name": "DOC",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/doc-cc/thumb.webp",
+    "source": "https://getdesign.md/design-md/doc-cc",
+    "page": 32
+  },
+  {
+    "id": "dive",
+    "name": "Dive",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dive/thumb.webp",
+    "source": "https://getdesign.md/design-md/dive",
+    "page": 33
+  },
+  {
+    "id": "detailco",
+    "name": "Detail",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/detailco/thumb.webp",
+    "source": "https://getdesign.md/design-md/detailco",
+    "page": 33
+  },
+  {
+    "id": "designfulltime",
+    "name": "Design Full-Time",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/designfulltime/thumb.webp",
+    "source": "https://getdesign.md/design-md/designfulltime",
+    "page": 33
+  },
+  {
+    "id": "dashdash",
+    "name": "Dash Dash",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dashdash/thumb.webp",
+    "source": "https://getdesign.md/design-md/dashdash",
+    "page": 33
+  },
+  {
+    "id": "dala",
+    "name": "Dala",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/dala/thumb.webp",
+    "source": "https://getdesign.md/design-md/dala",
+    "page": 33
+  },
+  {
+    "id": "cyberempathy",
+    "name": "Cyber Empathy Podcast",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cyberempathy/thumb.webp",
+    "source": "https://getdesign.md/design-md/cyberempathy",
+    "page": 33
+  },
+  {
+    "id": "cushionapp",
+    "name": "Cushion",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cushionapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/cushionapp",
+    "page": 33
+  },
+  {
+    "id": "cupofcouple",
+    "name": "Cup of Couple",
+    "category": "E-commerce",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cupofcouple/thumb.webp",
+    "source": "https://getdesign.md/design-md/cupofcouple",
+    "page": 33
+  },
+  {
+    "id": "copilot",
+    "name": "Copilot",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/copilot/thumb.webp",
+    "source": "https://getdesign.md/design-md/copilot",
+    "page": 33
+  },
+  {
+    "id": "coolection",
+    "name": "Coolection",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/coolection/thumb.webp",
+    "source": "https://getdesign.md/design-md/coolection",
+    "page": 33
+  },
+  {
+    "id": "convo",
+    "name": "Convo",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/convo/thumb.webp",
+    "source": "https://getdesign.md/design-md/convo",
+    "page": 33
+  },
+  {
+    "id": "context-app",
+    "name": "Context",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/context-app/thumb.webp",
+    "source": "https://getdesign.md/design-md/context-app",
+    "page": 33
+  },
+  {
+    "id": "companion-platform",
+    "name": "Companion-Platform",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/companion-platform/thumb.webp",
+    "source": "https://getdesign.md/design-md/companion-platform",
+    "page": 33
+  },
+  {
+    "id": "cloverapp",
+    "name": "Clover",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cloverapp/thumb.webp",
+    "source": "https://getdesign.md/design-md/cloverapp",
+    "page": 33
+  },
+  {
+    "id": "cliphire",
+    "name": "Cliphire",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cliphire/thumb.webp",
+    "source": "https://getdesign.md/design-md/cliphire",
+    "page": 33
+  },
+  {
+    "id": "cleanup-pictures",
+    "name": "Cleanup.pictures",
+    "category": "AI & ML",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cleanup-pictures/thumb.webp",
+    "source": "https://getdesign.md/design-md/cleanup-pictures",
+    "page": 33
+  },
+  {
+    "id": "circa",
+    "name": "Circa",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/circa/thumb.webp",
+    "source": "https://getdesign.md/design-md/circa",
+    "page": 34
+  },
+  {
+    "id": "chirpley",
+    "name": "Chirpley",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/chirpley/thumb.webp",
+    "source": "https://getdesign.md/design-md/chirpley",
+    "page": 34
+  },
+  {
+    "id": "cash-app-taxes",
+    "name": "Cash App Taxes",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cash-app-taxes/thumb.webp",
+    "source": "https://getdesign.md/design-md/cash-app-taxes",
+    "page": 34
+  },
+  {
+    "id": "cargo",
+    "name": "Cargo",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cargo/thumb.webp",
+    "source": "https://getdesign.md/design-md/cargo",
+    "page": 34
+  },
+  {
+    "id": "captaindata",
+    "name": "Captain Data",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/captaindata/thumb.webp",
+    "source": "https://getdesign.md/design-md/captaindata",
+    "page": 34
+  },
+  {
+    "id": "cal-com",
+    "name": "Cal.com",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/cal-com/thumb.webp",
+    "source": "https://getdesign.md/design-md/cal-com",
+    "page": 34
+  },
+  {
+    "id": "burb",
+    "name": "Burb",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/burb/thumb.webp",
+    "source": "https://getdesign.md/design-md/burb",
+    "page": 34
+  },
+  {
+    "id": "bueno-art",
+    "name": "Bueno",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/bueno-art/thumb.webp",
+    "source": "https://getdesign.md/design-md/bueno-art",
+    "page": 34
+  },
+  {
+    "id": "breef",
+    "name": "breef.",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/breef/thumb.webp",
+    "source": "https://getdesign.md/design-md/breef",
+    "page": 34
+  },
+  {
+    "id": "boords",
+    "name": "Boords",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/boords/thumb.webp",
+    "source": "https://getdesign.md/design-md/boords",
+    "page": 34
+  },
+  {
+    "id": "bio-link",
+    "name": "Bio Link",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/bio-link/thumb.webp",
+    "source": "https://getdesign.md/design-md/bio-link",
+    "page": 34
+  },
+  {
+    "id": "billi",
+    "name": "Billi",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/billi/thumb.webp",
+    "source": "https://getdesign.md/design-md/billi",
+    "page": 34
+  },
+  {
+    "id": "beseda",
+    "name": "Beseda",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/beseda/thumb.webp",
+    "source": "https://getdesign.md/design-md/beseda",
+    "page": 34
+  },
+  {
+    "id": "benefit3",
+    "name": "Benefit3",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/benefit3/thumb.webp",
+    "source": "https://getdesign.md/design-md/benefit3",
+    "page": 34
+  },
+  {
+    "id": "automator-design",
+    "name": "Automator for Figma",
+    "category": "Design & Creative",
+    "thumbnail": "https://cdn.getdesign.md/catalog/automator-design/thumb.webp",
+    "source": "https://getdesign.md/design-md/automator-design",
+    "page": 34
+  },
+  {
+    "id": "auth0",
+    "name": "Auth0",
+    "category": "Developer Tools",
+    "thumbnail": "https://cdn.getdesign.md/catalog/auth0/thumb.webp",
+    "source": "https://getdesign.md/design-md/auth0",
+    "page": 34
+  },
+  {
+    "id": "armadillo",
+    "name": "Armadillo",
+    "category": "Fintech",
+    "thumbnail": "https://cdn.getdesign.md/catalog/armadillo/thumb.webp",
+    "source": "https://getdesign.md/design-md/armadillo",
+    "page": 35
+  },
+  {
+    "id": "arcade-software",
+    "name": "Arcade",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/arcade-software/thumb.webp",
+    "source": "https://getdesign.md/design-md/arcade-software",
+    "page": 35
+  },
+  {
+    "id": "anchor",
+    "name": "Anchor",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/anchor/thumb.webp",
+    "source": "https://getdesign.md/design-md/anchor",
+    "page": 35
+  },
+  {
+    "id": "allwhere",
+    "name": "allwhere",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/allwhere/thumb.webp",
+    "source": "https://getdesign.md/design-md/allwhere",
+    "page": 35
+  },
+  {
+    "id": "alike",
+    "name": "Alike",
+    "category": "Media & Consumer",
+    "thumbnail": "https://cdn.getdesign.md/catalog/alike/thumb.webp",
+    "source": "https://getdesign.md/design-md/alike",
+    "page": 35
+  },
+  {
+    "id": "agorapulse",
+    "name": "Agorapulse",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/agorapulse/thumb.webp",
+    "source": "https://getdesign.md/design-md/agorapulse",
+    "page": 35
+  },
+  {
+    "id": "aerotime",
+    "name": "Aerotime",
+    "category": "Productivity & SaaS",
+    "thumbnail": "https://cdn.getdesign.md/catalog/aerotime/thumb.webp",
+    "source": "https://getdesign.md/design-md/aerotime",
+    "page": 35
+  }
+]
